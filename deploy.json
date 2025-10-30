@@ -1,0 +1,13 @@
+{
+  "name": "kod-veliba-fresh",
+  "version": "1.0.0",
+  "description": "CRM System with AI Personal Assistant powered by Gemini 2.5 Flash",
+  "main": "dist/index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "start": "node dist/index.js"
+  }
+}

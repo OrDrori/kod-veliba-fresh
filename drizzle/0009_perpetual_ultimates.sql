@@ -1,0 +1,21 @@
+CREATE TABLE `grow_sites` (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`name` varchar(255) NOT NULL,
+	`owner` varchar(255),
+	`status` enum('planning','design','development','testing','live','maintenance','paused') NOT NULL DEFAULT 'planning',
+	`timeline_start` date,
+	`timeline_end` date,
+	`priority` enum('low','medium','high','urgent') NOT NULL DEFAULT 'medium',
+	`client_id` int,
+	`site_type` varchar(100),
+	`technology` varchar(255),
+	`url` varchar(500),
+	`notes` text,
+	`budget` decimal(12,2),
+	`hours_spent` decimal(10,2),
+	`revenue` decimal(12,2),
+	`files` text,
+	`created_at` timestamp NOT NULL DEFAULT (now()),
+	`updated_at` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,
+	CONSTRAINT `grow_sites_id` PRIMARY KEY(`id`)
+);

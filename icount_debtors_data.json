@@ -1,0 +1,159 @@
+{
+  "debtors_report": [
+    {
+      "client": "ארגיאל מסחר בעמ",
+      "doc_number": "חע. 1743",
+      "due_date": "12-01-2025",
+      "amount": 4273.50,
+      "vat": 769.23,
+      "total": 5042.73,
+      "balance": 5042.73,
+      "days_overdue": 292,
+      "status": "overdue",
+      "urgency": "critical"
+    },
+    {
+      "client": "טריאו",
+      "doc_number": "חע. 1879",
+      "due_date": "06-04-2025",
+      "amount": 4000.00,
+      "vat": 720.00,
+      "total": 4720.00,
+      "balance": 4720.00,
+      "days_overdue": 207,
+      "status": "overdue",
+      "urgency": "critical"
+    },
+    {
+      "client": "יריד וחוף פתח תקווה בעמ",
+      "doc_number": "חע. 1912",
+      "due_date": "05-05-2025",
+      "amount": 625.00,
+      "vat": 112.50,
+      "total": 737.50,
+      "balance": 737.50,
+      "days_overdue": 178,
+      "status": "overdue",
+      "urgency": "high"
+    },
+    {
+      "client": "סים פור פיינרי בעמ",
+      "doc_number": "חע. 1973",
+      "due_date": "26-06-2025",
+      "amount": 12500.00,
+      "vat": 2250.00,
+      "total": 14750.00,
+      "balance": 14750.00,
+      "days_overdue": 126,
+      "status": "overdue",
+      "urgency": "high"
+    },
+    {
+      "client": "אופנת טגל",
+      "doc_number": "חע. 1983",
+      "due_date": "02-07-2025",
+      "amount": 250.00,
+      "vat": 45.00,
+      "total": 295.00,
+      "balance": 295.00,
+      "days_overdue": 120,
+      "status": "overdue",
+      "urgency": "medium"
+    },
+    {
+      "client": "סים פור פיינרי בעמ",
+      "doc_number": "חע. 2004",
+      "due_date": "15-07-2025",
+      "amount": 7500.00,
+      "vat": 1350.00,
+      "total": 8850.00,
+      "balance": 8850.00,
+      "days_overdue": 107,
+      "status": "overdue",
+      "urgency": "high"
+    },
+    {
+      "client": "נדרי תעשיות עצבן",
+      "doc_number": "חע. 2021",
+      "due_date": "31-07-2025",
+      "amount": 85.00,
+      "vat": 15.30,
+      "total": 100.30,
+      "balance": 100.30,
+      "days_overdue": 91,
+      "status": "overdue",
+      "urgency": "low"
+    },
+    {
+      "client": "פאאר גלרי יזמות בעמ",
+      "doc_number": "חע. 2034",
+      "due_date": "03-08-2025",
+      "amount": 450.00,
+      "vat": 81.00,
+      "total": 531.00,
+      "balance": 531.00,
+      "days_overdue": 88,
+      "status": "overdue",
+      "urgency": "medium"
+    },
+    {
+      "client": "AB Dental Devices Ltd",
+      "doc_number": "חע. 2048",
+      "due_date": "13-08-2025",
+      "amount": 1800.00,
+      "vat": 324.00,
+      "total": 2124.00,
+      "balance": 2124.00,
+      "days_overdue": 78,
+      "status": "overdue",
+      "urgency": "medium"
+    },
+    {
+      "client": "דאטה אמת תקשורת בעמ",
+      "doc_number": "חע. 2057",
+      "due_date": "26-08-2025",
+      "amount": 3240.00,
+      "vat": 583.20,
+      "total": 3823.20,
+      "balance": 3823.20,
+      "days_overdue": 65,
+      "status": "overdue",
+      "urgency": "medium"
+    },
+    {
+      "client": "נדרי תעשיות עצבן",
+      "doc_number": "חע. 2061",
+      "due_date": "31-08-2025",
+      "amount": 85.00,
+      "vat": 15.30,
+      "total": 100.30,
+      "balance": 100.30,
+      "days_overdue": 60,
+      "status": "overdue",
+      "urgency": "low"
+    },
+    {
+      "client": "גרואו פיימנטס בעמ",
+      "doc_number": "חע. 2062",
+      "due_date": "01-09-2025",
+      "amount": 26800.00,
+      "vat": 4824.00,
+      "total": 31624.00,
+      "balance": 31624.00,
+      "days_overdue": 59,
+      "status": "overdue",
+      "urgency": "critical"
+    }
+  ],
+  "summary": {
+    "total_debtors": 12,
+    "total_debt": 72878.03,
+    "critical_debt": 41386.73,
+    "high_priority_debt": 23600.00,
+    "medium_priority_debt": 6778.50,
+    "low_priority_debt": 200.60,
+    "average_days_overdue": 123,
+    "oldest_debt_days": 292
+  }
+}
+

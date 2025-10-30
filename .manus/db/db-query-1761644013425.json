@@ -1,0 +1,38 @@
+{
+  "query": "SELECT \n  'crm_clients' as table_name, COUNT(*) as column_count \nFROM information_schema.COLUMNS \nWHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'crm_clients'\nUNION ALL\nSELECT 'leads', COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'leads'\nUNION ALL\nSELECT 'contacts', COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'contacts'\nUNION ALL\nSELECT 'client_tasks', COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'client_tasks'\nUNION ALL\nSELECT 'design_tasks', COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'design_tasks'\nUNION ALL\nSELECT 'website_projects', COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'website_projects'\nUNION ALL\nSELECT 'billing_charges', COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'billing_charges';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4JAWgR17KhGySt9.bfadd583f5f6 --database mUd6aSPsVxqf9mVgrBQgdw --execute SELECT \n  'crm_clients' as table_name, COUNT(*) as column_count \nFROM information_schema.COLUMNS \nWHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'crm_clients'\nUNION ALL\nSELECT 'leads', COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'leads'\nUNION ALL\nSELECT 'contacts', COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'contacts'\nUNION ALL\nSELECT 'client_tasks', COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'client_tasks'\nUNION ALL\nSELECT 'design_tasks', COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'design_tasks'\nUNION ALL\nSELECT 'website_projects', COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'website_projects'\nUNION ALL\nSELECT 'billing_charges', COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'billing_charges';",
+  "rows": [
+    {
+      "table_name": "design_tasks",
+      "column_count": "20"
+    },
+    {
+      "table_name": "contacts",
+      "column_count": "25"
+    },
+    {
+      "table_name": "client_tasks",
+      "column_count": "33"
+    },
+    {
+      "table_name": "crm_clients",
+      "column_count": "33"
+    },
+    {
+      "table_name": "website_projects",
+      "column_count": "20"
+    },
+    {
+      "table_name": "billing_charges",
+      "column_count": "16"
+    },
+    {
+      "table_name": "leads",
+      "column_count": "18"
+    }
+  ],
+  "messages": [],
+  "stdout": "table_name\tcolumn_count\ndesign_tasks\t20\ncontacts\t25\nclient_tasks\t33\ncrm_clients\t33\nwebsite_projects\t20\nbilling_charges\t16\nleads\t18\n",
+  "stderr": "",
+  "execution_time_ms": 116
+}

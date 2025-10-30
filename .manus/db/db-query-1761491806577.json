@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO design_tasks (task_name, design_type, status, assigned_to, due_date, notes) VALUES\n('עיצוב לוגו חדש לחברת הייטק', 'logo', 'in_progress', 'שרה המעצבת', '2024-11-15', 'לוגו מודרני וטכנולוגי'),\n('באנר לקמפיין פייסבוק', 'banner', 'todo', 'דני הגרפיקאי', '2024-11-10', 'באנר 1200x628'),\n('עיצוב ממשק אפליקציה', 'ui', 'review', 'שרה המעצבת', '2024-11-20', 'ממשק נקי ומינימליסטי'),\n('מוקאפ דף נחיתה', 'mockup', 'approved', 'דני הגרפיקאי', '2024-11-05', 'מוקאפ אושר ללקוח'),\n('עיצוב כרטיס ביקור', 'other', 'done', 'שרה המעצבת', '2024-10-25', 'הושלם ונשלח'),\n('לוגו למסעדה', 'logo', 'todo', 'דני הגרפיקאי', '2024-11-18', 'סגנון אלגנטי'),\n('באנר לאתר', 'banner', 'in_progress', 'שרה המעצבת', '2024-11-12', 'באנר ראשי לדף הבית');",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4JAWgR17KhGySt9.bfadd583f5f6 --database mUd6aSPsVxqf9mVgrBQgdw --execute INSERT INTO design_tasks (task_name, design_type, status, assigned_to, due_date, notes) VALUES\n('עיצוב לוגו חדש לחברת הייטק', 'logo', 'in_progress', 'שרה המעצבת', '2024-11-15', 'לוגו מודרני וטכנולוגי'),\n('באנר לקמפיין פייסבוק', 'banner', 'todo', 'דני הגרפיקאי', '2024-11-10', 'באנר 1200x628'),\n('עיצוב ממשק אפליקציה', 'ui', 'review', 'שרה המעצבת', '2024-11-20', 'ממשק נקי ומינימליסטי'),\n('מוקאפ דף נחיתה', 'mockup', 'approved', 'דני הגרפיקאי', '2024-11-05', 'מוקאפ אושר ללקוח'),\n('עיצוב כרטיס ביקור', 'other', 'done', 'שרה המעצבת', '2024-10-25', 'הושלם ונשלח'),\n('לוגו למסעדה', 'logo', 'todo', 'דני הגרפיקאי', '2024-11-18', 'סגנון אלגנטי'),\n('באנר לאתר', 'banner', 'in_progress', 'שרה המעצבת', '2024-11-12', 'באנר ראשי לדף הבית');",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 399
+}

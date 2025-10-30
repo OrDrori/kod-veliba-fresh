@@ -1,0 +1,134 @@
+/* Mobile Optimizations for Code & Core System */
+
+/* Touch-friendly buttons */
+@media (max-width: 768px) {
+  button, a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Larger tap targets */
+  .tap-target {
+    padding: 12px;
+  }
+  
+  /* Prevent text selection on touch */
+  .no-select {
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  /* Smooth scrolling */
+  * {
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Dialog full width on mobile */
+  [role="dialog"] {
+    max-width: 95vw !important;
+    margin: 0 auto;
+  }
+  
+  /* Input fields larger on mobile */
+  input, textarea, select {
+    font-size: 16px !important; /* Prevents zoom on iOS */
+    min-height: 44px;
+  }
+  
+  /* Table horizontal scroll indicator */
+  .table-container {
+    position: relative;
+  }
+  
+  .table-container::after {
+    content: "← גלול לצפייה במידע נוסף";
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to left, transparent, #1a1d2e);
+    padding: 8px 16px;
+    font-size: 12px;
+    color: #6366F1;
+    pointer-events: none;
+  }
+  
+  /* Hide scroll indicator when at end */
+  .table-container.scrolled-end::after {
+    display: none;
+  }
+}
+
+/* Tablet optimizations */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Adjust grid columns for tablets */
+  .grid-responsive {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop optimizations */
+@media (min-width: 1024px) {
+  /* Hover effects only on desktop */
+  .hover-effect:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+  }
+}
+
+/* Landscape mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+  /* Reduce vertical padding in landscape */
+  .mobile-landscape-compact {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+/* High DPI screens */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* Sharper images on retina displays */
+  img {
+    image-rendering: -webkit-optimize-contrast;
+  }
+}
+
+/* Dark mode mobile adjustments */
+@media (prefers-color-scheme: dark) and (max-width: 768px) {
+  /* Increase contrast for better readability */
+  body {
+    background-color: #0a0d1a;
+  }
+  
+  .text-muted {
+    color: #9ca3af;
+  }
+}
+
+/* Accessibility - Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Print styles */
+@media print {
+  /* Hide navigation and non-essential elements */
+  nav, .sidebar, .mobile-header, button {
+    display: none !important;
+  }
+  
+  /* Optimize for print */
+  body {
+    background: white;
+    color: black;
+  }
+  
+  table {
+    page-break-inside: avoid;
+  }
+}
+

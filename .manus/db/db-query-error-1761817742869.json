@@ -1,0 +1,8 @@
+{
+  "query": "SELECT \n  client_name,\n  account_manager,\n  business_type,\n  status,\n  hourly_rate,\n  monthly_retainer,\n  bank_hours,\n  used_hours,\n  email,\n  phone,\n  contact_person,\n  start_date,\n  notes,\n  currency,\n  projects_link,\n  tasks_link,\n  billing_link\nFROM crm_clients \nLIMIT 5;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4JAWgR17KhGySt9.bfadd583f5f6 --database mUd6aSPsVxqf9mVgrBQgdw --execute SELECT \n  client_name,\n  account_manager,\n  business_type,\n  status,\n  hourly_rate,\n  monthly_retainer,\n  bank_hours,\n  used_hours,\n  email,\n  phone,\n  contact_person,\n  start_date,\n  notes,\n  currency,\n  projects_link,\n  tasks_link,\n  billing_link\nFROM crm_clients \nLIMIT 5;",
+  "returncode": 1,
+  "logs": [
+    "ERROR 1054 (42S22) at line 1: Unknown column 'account_manager' in 'field list'"
+  ]
+}

@@ -1,0 +1,23 @@
+CREATE TABLE `system_improvements` (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`title` varchar(500) NOT NULL,
+	`description` text,
+	`type` enum('feature','bug','improvement','task') NOT NULL,
+	`phase` varchar(100),
+	`priority` enum('critical','high','medium','low') NOT NULL DEFAULT 'medium',
+	`status` enum('todo','in_progress','testing','done','blocked') NOT NULL DEFAULT 'todo',
+	`assigned_to` varchar(255),
+	`estimated_hours` int,
+	`actual_hours` int,
+	`related_files` text,
+	`related_boards` text,
+	`checkboxes` text,
+	`completed_checkboxes` int DEFAULT 0,
+	`total_checkboxes` int DEFAULT 0,
+	`notes` text,
+	`created_by` varchar(255),
+	`created_at` timestamp NOT NULL DEFAULT (now()),
+	`updated_at` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,
+	`completed_at` timestamp,
+	CONSTRAINT `system_improvements_id` PRIMARY KEY(`id`)
+);

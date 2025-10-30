@@ -1,0 +1,38 @@
+{
+  "query": "\nSELECT \n  'crm_clients' as table_name, COUNT(*) as count FROM crm_clients\nUNION ALL\nSELECT 'deals', COUNT(*) FROM deals\nUNION ALL\nSELECT 'contacts', COUNT(*) FROM contacts\nUNION ALL\nSELECT 'client_tasks', COUNT(*) FROM client_tasks\nUNION ALL\nSELECT 'payment_collection', COUNT(*) FROM payment_collection\nUNION ALL\nSELECT 'website_projects', COUNT(*) FROM website_projects\nUNION ALL\nSELECT 'design_tasks', COUNT(*) FROM design_tasks\n",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4JAWgR17KhGySt9.bfadd583f5f6 --database mUd6aSPsVxqf9mVgrBQgdw --execute \nSELECT \n  'crm_clients' as table_name, COUNT(*) as count FROM crm_clients\nUNION ALL\nSELECT 'deals', COUNT(*) FROM deals\nUNION ALL\nSELECT 'contacts', COUNT(*) FROM contacts\nUNION ALL\nSELECT 'client_tasks', COUNT(*) FROM client_tasks\nUNION ALL\nSELECT 'payment_collection', COUNT(*) FROM payment_collection\nUNION ALL\nSELECT 'website_projects', COUNT(*) FROM website_projects\nUNION ALL\nSELECT 'design_tasks', COUNT(*) FROM design_tasks\n",
+  "rows": [
+    {
+      "table_name": "crm_clients",
+      "count": "130"
+    },
+    {
+      "table_name": "client_tasks",
+      "count": "333"
+    },
+    {
+      "table_name": "contacts",
+      "count": "278"
+    },
+    {
+      "table_name": "payment_collection",
+      "count": "723"
+    },
+    {
+      "table_name": "deals",
+      "count": "692"
+    },
+    {
+      "table_name": "design_tasks",
+      "count": "0"
+    },
+    {
+      "table_name": "website_projects",
+      "count": "364"
+    }
+  ],
+  "messages": [],
+  "stdout": "table_name\tcount\ncrm_clients\t130\nclient_tasks\t333\ncontacts\t278\npayment_collection\t723\ndeals\t692\ndesign_tasks\t0\nwebsite_projects\t364\n",
+  "stderr": "",
+  "execution_time_ms": 65
+}

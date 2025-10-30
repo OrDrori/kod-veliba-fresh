@@ -1,0 +1,55 @@
+{
+  "query": "SELECT monday_id, client_name, email, phone, contact_person, hourly_rate, status FROM crm_clients WHERE email IS NOT NULL LIMIT 5;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4JAWgR17KhGySt9.bfadd583f5f6 --database mUd6aSPsVxqf9mVgrBQgdw --execute SELECT monday_id, client_name, email, phone, contact_person, hourly_rate, status FROM crm_clients WHERE email IS NOT NULL LIMIT 5;",
+  "rows": [
+    {
+      "monday_id": "NULL",
+      "client_name": "MOYA-CBD MAGAZINE WEBSITE",
+      "email": "shalom@moya-cbd.com",
+      "phone": "NULL",
+      "contact_person": "Niri Levy, Or Drori",
+      "hourly_rate": "250",
+      "status": "active"
+    },
+    {
+      "monday_id": "NULL",
+      "client_name": "סטודיו מוזי",
+      "email": "studio@mozi.digital",
+      "phone": "0505645965",
+      "contact_person": "Amit B",
+      "hourly_rate": "250",
+      "status": "active"
+    },
+    {
+      "monday_id": "NULL",
+      "client_name": "חברון זלצמן",
+      "email": "eytan@hz-adv.co.il, rotem@hz-adv.co.il",
+      "phone": "0547907505, 0502600060",
+      "contact_person": "Amit B",
+      "hourly_rate": "250",
+      "status": "active"
+    },
+    {
+      "monday_id": "NULL",
+      "client_name": "Grow",
+      "email": "evyatar@grow.business",
+      "phone": "0528802822, 0534738605",
+      "contact_person": "Amit B",
+      "hourly_rate": "250",
+      "status": "active"
+    },
+    {
+      "monday_id": "NULL",
+      "client_name": "מוזה פרסום",
+      "email": "gross.matar@gmail.com",
+      "phone": "0503622233",
+      "contact_person": "Amit B",
+      "hourly_rate": "250",
+      "status": "active"
+    }
+  ],
+  "messages": [],
+  "stdout": "monday_id\tclient_name\temail\tphone\tcontact_person\thourly_rate\tstatus\nNULL\tMOYA-CBD MAGAZINE WEBSITE\tshalom@moya-cbd.com\tNULL\tNiri Levy, Or Drori\t250\tactive\nNULL\tסטודיו מוזי\tstudio@mozi.digital\t0505645965\tAmit B\t250\tactive\nNULL\tחברון זלצמן\teytan@hz-adv.co.il, rotem@hz-adv.co.il\t0547907505, 0502600060\tAmit B\t250\tactive\nNULL\tGrow\tevyatar@grow.business\t0528802822, 0534738605\tAmit B\t250\tactive\nNULL\tמוזה פרסום\tgross.matar@gmail.com\t0503622233\tAmit B\t250\tactive\n",
+  "stderr": "",
+  "execution_time_ms": 50
+}

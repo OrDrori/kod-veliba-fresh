@@ -1,0 +1,118 @@
+{
+  "retainers": [
+    {
+      "client": "איר טי אל וי תיירות ונופש",
+      "doc_number": "ריטיינר 81",
+      "date": "23/10/2025",
+      "amount": 450.00,
+      "vat": 81.00,
+      "total": 531.00,
+      "frequency": "חייב כל חודש",
+      "status": "active"
+    },
+    {
+      "client": "מועצת ארגוני הילדים והנוער",
+      "doc_number": "ריטיינר 80",
+      "date": "18/09/2025",
+      "amount": 250.00,
+      "vat": 45.00,
+      "total": 295.00,
+      "frequency": "חייב כל חודש",
+      "status": "active"
+    },
+    {
+      "client": "Rotem Industries Ltd",
+      "doc_number": "ריטיינר 79",
+      "date": "09/09/2025",
+      "amount": 750.00,
+      "vat": 135.00,
+      "total": 885.00,
+      "frequency": "חייב כל חודש",
+      "status": "active"
+    },
+    {
+      "client": "One1 Global",
+      "doc_number": "ריטיינר 77",
+      "date": "02/09/2025",
+      "amount": 3000.00,
+      "vat": 540.00,
+      "total": 3540.00,
+      "frequency": "חייב כל חודש",
+      "status": "active"
+    },
+    {
+      "client": "גבדור בע\"מ",
+      "doc_number": "ריטיינר 76",
+      "date": "03/06/2025",
+      "amount": 5826.27,
+      "vat": 1048.73,
+      "total": 6875.00,
+      "frequency": "חייב כל חודש",
+      "status": "active"
+    },
+    {
+      "client": "צופים עולמי",
+      "doc_number": "ריטיינר 74",
+      "date": "12/05/2025",
+      "amount": 779.66,
+      "vat": 140.34,
+      "total": 920.00,
+      "frequency": "חייב כל חודש",
+      "status": "active"
+    },
+    {
+      "client": "ghd mosaic design studio",
+      "doc_number": "ריטיינר 75",
+      "date": "12/05/2025",
+      "amount": 1096.00,
+      "vat": 0.00,
+      "total": 1096.00,
+      "frequency": "חייב כל חודש",
+      "status": "active"
+    },
+    {
+      "client": "שמר בטיחות - יועצים בע\"מ",
+      "doc_number": "ריטיינר 73",
+      "date": "01/05/2025",
+      "amount": 170.34,
+      "vat": 30.66,
+      "total": 201.00,
+      "frequency": "חייב כל חודש",
+      "status": "active"
+    },
+    {
+      "client": "גרואו פיימנטס בע\"מ",
+      "doc_number": "ריטיינר 72",
+      "date": "15/04/2025",
+      "amount": 1200.00,
+      "vat": 216.00,
+      "total": 1416.00,
+      "frequency": "חייב כל חודש",
+      "status": "active"
+    },
+    {
+      "client": "תום רוזנווסר",
+      "doc_number": "ריטיינר 71",
+      "date": "03/02/2025",
+      "amount": 65.25,
+      "vat": 11.75,
+      "total": 77.00,
+      "frequency": "חייב כל חודש",
+      "status": "active"
+    }
+  ],
+  "summary": {
+    "total_retainers": 10,
+    "monthly_recurring_revenue": 13587.52,
+    "active_retainers": 10,
+    "largest_retainer": {
+      "client": "גבדור בע\"מ",
+      "amount": 5826.27
+    },
+    "smallest_retainer": {
+      "client": "תום רוזנווסר",
+      "amount": 65.25
+    }
+  }
+}
+

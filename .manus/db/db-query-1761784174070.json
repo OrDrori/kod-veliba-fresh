@@ -1,0 +1,58 @@
+{
+  "query": "SELECT 'crm_clients' as table_name, COUNT(*) as total_records FROM crm_clients\nUNION ALL\nSELECT 'client_tasks', COUNT(*) FROM client_tasks\nUNION ALL\nSELECT 'billing_charges', COUNT(*) FROM billing_charges\nUNION ALL\nSELECT 'leads', COUNT(*) FROM leads\nUNION ALL\nSELECT 'contacts', COUNT(*) FROM contacts\nUNION ALL\nSELECT 'design_tasks', COUNT(*) FROM design_tasks\nUNION ALL\nSELECT 'website_projects', COUNT(*) FROM website_projects\nUNION ALL\nSELECT 'grow_sites', COUNT(*) FROM grow_sites\nUNION ALL\nSELECT 'tasks_new', COUNT(*) FROM tasks_new\nUNION ALL\nSELECT 'deals', COUNT(*) FROM deals\nUNION ALL\nSELECT 'payment_collection', COUNT(*) FROM payment_collection\nUNION ALL\nSELECT 'system_improvements', COUNT(*) FROM system_improvements;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4JAWgR17KhGySt9.bfadd583f5f6 --database mUd6aSPsVxqf9mVgrBQgdw --execute SELECT 'crm_clients' as table_name, COUNT(*) as total_records FROM crm_clients\nUNION ALL\nSELECT 'client_tasks', COUNT(*) FROM client_tasks\nUNION ALL\nSELECT 'billing_charges', COUNT(*) FROM billing_charges\nUNION ALL\nSELECT 'leads', COUNT(*) FROM leads\nUNION ALL\nSELECT 'contacts', COUNT(*) FROM contacts\nUNION ALL\nSELECT 'design_tasks', COUNT(*) FROM design_tasks\nUNION ALL\nSELECT 'website_projects', COUNT(*) FROM website_projects\nUNION ALL\nSELECT 'grow_sites', COUNT(*) FROM grow_sites\nUNION ALL\nSELECT 'tasks_new', COUNT(*) FROM tasks_new\nUNION ALL\nSELECT 'deals', COUNT(*) FROM deals\nUNION ALL\nSELECT 'payment_collection', COUNT(*) FROM payment_collection\nUNION ALL\nSELECT 'system_improvements', COUNT(*) FROM system_improvements;",
+  "rows": [
+    {
+      "table_name": "crm_clients",
+      "total_records": "65"
+    },
+    {
+      "table_name": "leads",
+      "total_records": "4"
+    },
+    {
+      "table_name": "billing_charges",
+      "total_records": "0"
+    },
+    {
+      "table_name": "contacts",
+      "total_records": "278"
+    },
+    {
+      "table_name": "client_tasks",
+      "total_records": "333"
+    },
+    {
+      "table_name": "design_tasks",
+      "total_records": "0"
+    },
+    {
+      "table_name": "tasks_new",
+      "total_records": "0"
+    },
+    {
+      "table_name": "grow_sites",
+      "total_records": "500"
+    },
+    {
+      "table_name": "website_projects",
+      "total_records": "364"
+    },
+    {
+      "table_name": "deals",
+      "total_records": "484"
+    },
+    {
+      "table_name": "system_improvements",
+      "total_records": "0"
+    },
+    {
+      "table_name": "payment_collection",
+      "total_records": "723"
+    }
+  ],
+  "messages": [],
+  "stdout": "table_name\ttotal_records\ncrm_clients\t65\nleads\t4\nbilling_charges\t0\ncontacts\t278\nclient_tasks\t333\ndesign_tasks\t0\ntasks_new\t0\ngrow_sites\t500\nwebsite_projects\t364\ndeals\t484\nsystem_improvements\t0\npayment_collection\t723\n",
+  "stderr": "",
+  "execution_time_ms": 1628
+}

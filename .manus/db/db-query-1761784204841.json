@@ -1,0 +1,46 @@
+{
+  "query": "SELECT \n  'client_name' as column_name, COUNT(*) as filled_records FROM crm_clients WHERE client_name IS NOT NULL AND client_name != ''\nUNION ALL SELECT 'email', COUNT(*) FROM crm_clients WHERE email IS NOT NULL AND email != ''\nUNION ALL SELECT 'phone', COUNT(*) FROM crm_clients WHERE phone IS NOT NULL AND phone != ''\nUNION ALL SELECT 'business_type', COUNT(*) FROM crm_clients WHERE business_type IS NOT NULL\nUNION ALL SELECT 'status', COUNT(*) FROM crm_clients WHERE status IS NOT NULL\nUNION ALL SELECT 'monthly_retainer', COUNT(*) FROM crm_clients WHERE monthly_retainer IS NOT NULL\nUNION ALL SELECT 'hourly_rate', COUNT(*) FROM crm_clients WHERE hourly_rate IS NOT NULL\nUNION ALL SELECT 'start_date', COUNT(*) FROM crm_clients WHERE start_date IS NOT NULL\nUNION ALL SELECT 'notes', COUNT(*) FROM crm_clients WHERE notes IS NOT NULL AND notes != '';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4JAWgR17KhGySt9.bfadd583f5f6 --database mUd6aSPsVxqf9mVgrBQgdw --execute SELECT \n  'client_name' as column_name, COUNT(*) as filled_records FROM crm_clients WHERE client_name IS NOT NULL AND client_name != ''\nUNION ALL SELECT 'email', COUNT(*) FROM crm_clients WHERE email IS NOT NULL AND email != ''\nUNION ALL SELECT 'phone', COUNT(*) FROM crm_clients WHERE phone IS NOT NULL AND phone != ''\nUNION ALL SELECT 'business_type', COUNT(*) FROM crm_clients WHERE business_type IS NOT NULL\nUNION ALL SELECT 'status', COUNT(*) FROM crm_clients WHERE status IS NOT NULL\nUNION ALL SELECT 'monthly_retainer', COUNT(*) FROM crm_clients WHERE monthly_retainer IS NOT NULL\nUNION ALL SELECT 'hourly_rate', COUNT(*) FROM crm_clients WHERE hourly_rate IS NOT NULL\nUNION ALL SELECT 'start_date', COUNT(*) FROM crm_clients WHERE start_date IS NOT NULL\nUNION ALL SELECT 'notes', COUNT(*) FROM crm_clients WHERE notes IS NOT NULL AND notes != '';",
+  "rows": [
+    {
+      "column_name": "business_type",
+      "filled_records": "65"
+    },
+    {
+      "column_name": "email",
+      "filled_records": "0"
+    },
+    {
+      "column_name": "status",
+      "filled_records": "65"
+    },
+    {
+      "column_name": "phone",
+      "filled_records": "0"
+    },
+    {
+      "column_name": "client_name",
+      "filled_records": "65"
+    },
+    {
+      "column_name": "monthly_retainer",
+      "filled_records": "0"
+    },
+    {
+      "column_name": "start_date",
+      "filled_records": "0"
+    },
+    {
+      "column_name": "notes",
+      "filled_records": "2"
+    },
+    {
+      "column_name": "hourly_rate",
+      "filled_records": "63"
+    }
+  ],
+  "messages": [],
+  "stdout": "column_name\tfilled_records\nbusiness_type\t65\nemail\t0\nstatus\t65\nphone\t0\nclient_name\t65\nmonthly_retainer\t0\nstart_date\t0\nnotes\t2\nhourly_rate\t63\n",
+  "stderr": "",
+  "execution_time_ms": 61
+}

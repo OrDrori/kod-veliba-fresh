@@ -1,0 +1,17 @@
+{
+  "query": "SELECT COUNT(*) as total, \n  COUNT(CASE WHEN email IS NOT NULL AND email != '' THEN 1 END) as with_email,\n  COUNT(CASE WHEN phone IS NOT NULL AND phone != '' THEN 1 END) as with_phone,\n  COUNT(CASE WHEN company IS NOT NULL AND company != '' THEN 1 END) as with_company,\n  COUNT(CASE WHEN position IS NOT NULL AND position != '' THEN 1 END) as with_position\nFROM contacts;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4JAWgR17KhGySt9.bfadd583f5f6 --database mUd6aSPsVxqf9mVgrBQgdw --execute SELECT COUNT(*) as total, \n  COUNT(CASE WHEN email IS NOT NULL AND email != '' THEN 1 END) as with_email,\n  COUNT(CASE WHEN phone IS NOT NULL AND phone != '' THEN 1 END) as with_phone,\n  COUNT(CASE WHEN company IS NOT NULL AND company != '' THEN 1 END) as with_company,\n  COUNT(CASE WHEN position IS NOT NULL AND position != '' THEN 1 END) as with_position\nFROM contacts;",
+  "rows": [
+    {
+      "total": "834",
+      "with_email": "430",
+      "with_phone": "410",
+      "with_company": "0",
+      "with_position": "174"
+    }
+  ],
+  "messages": [],
+  "stdout": "total\twith_email\twith_phone\twith_company\twith_position\n834\t430\t410\t0\t174\n",
+  "stderr": "",
+  "execution_time_ms": 50
+}

@@ -1,0 +1,90 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1761485872239,
+      "tag": "0000_gigantic_ogun",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1761486077039,
+      "tag": "0001_chemical_logan",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1761640557813,
+      "tag": "0002_purple_doctor_doom",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1761642470680,
+      "tag": "0003_lovely_jasper_sitwell",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1761642557809,
+      "tag": "0004_orange_firebird",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1761642642190,
+      "tag": "0005_calm_dust",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1761642944560,
+      "tag": "0006_steep_lightspeed",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1761646267039,
+      "tag": "0007_good_ken_ellis",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "5",
+      "when": 1761648230062,
+      "tag": "0008_unknown_exodus",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "5",
+      "when": 1761659234900,
+      "tag": "0009_perpetual_ultimates",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "5",
+      "when": 1761813451925,
+      "tag": "0010_rich_blade",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "5",
+      "when": 1761818368667,
+      "tag": "0011_opposite_senator_kelly",
+      "breakpoints": true
+    }
+  ]
+}

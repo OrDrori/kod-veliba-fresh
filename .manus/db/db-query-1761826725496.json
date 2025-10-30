@@ -1,0 +1,70 @@
+{
+  "query": "SELECT name, email, phone, position FROM contacts LIMIT 10;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4JAWgR17KhGySt9.bfadd583f5f6 --database mUd6aSPsVxqf9mVgrBQgdw --execute SELECT name, email, phone, position FROM contacts LIMIT 10;",
+  "rows": [
+    {
+      "name": "פאול באייה - אחוזות רובינשטיין",
+      "email": "paul@arubi.co.il",
+      "phone": "0548065060",
+      "position": "איש IT"
+    },
+    {
+      "name": "רוני קופת תל אביב",
+      "email": "ronny@2207.co.il",
+      "phone": "0542033006",
+      "position": "CTO"
+    },
+    {
+      "name": "דודי - zoo store",
+      "email": "dmgmdesign@gmail.com‬ - dmgmdesign@gmail.com",
+      "phone": "NULL",
+      "position": "NULL"
+    },
+    {
+      "name": "דוד - פונגיז",
+      "email": "hezydog@gmail.com",
+      "phone": "0538881867",
+      "position": "NULL"
+    },
+    {
+      "name": "מעיין",
+      "email": "NULL",
+      "phone": "0526828428",
+      "position": "NULL"
+    },
+    {
+      "name": "טל הפודקסטיה",
+      "email": "ha.podcastiya@gmail.com",
+      "phone": "0508870269",
+      "position": "NULL"
+    },
+    {
+      "name": "New contact",
+      "email": "NULL",
+      "phone": "NULL",
+      "position": "NULL"
+    },
+    {
+      "name": "כרמל וידאל",
+      "email": "NULL",
+      "phone": "0528314031",
+      "position": "מנהל IT"
+    },
+    {
+      "name": "גבריאל חיים",
+      "email": "gaby@gabdor.co.il‏ - gaby@gabdor.co.il",
+      "phone": "0504771787",
+      "position": "NULL"
+    },
+    {
+      "name": "צחי דיטל",
+      "email": "Zdital@gmail.com",
+      "phone": "0524747111",
+      "position": "NULL"
+    }
+  ],
+  "messages": [],
+  "stdout": "name\temail\tphone\tposition\nפאול באייה - אחוזות רובינשטיין\tpaul@arubi.co.il\t0548065060\tאיש IT\nרוני קופת תל אביב\tronny@2207.co.il\t0542033006\tCTO\nדודי - zoo store\tdmgmdesign@gmail.com‬ - dmgmdesign@gmail.com\tNULL\tNULL\nדוד - פונגיז\thezydog@gmail.com\t0538881867\tNULL\nמעיין\tNULL\t0526828428\tNULL\nטל הפודקסטיה\tha.podcastiya@gmail.com\t0508870269\tNULL\nNew contact\tNULL\tNULL\tNULL\nכרמל וידאל\tNULL\t0528314031\tמנהל IT\nגבריאל חיים\tgaby@gabdor.co.il‏ - gaby@gabdor.co.il\t0504771787\tNULL\nצחי דיטל\tZdital@gmail.com\t0524747111\tNULL\n",
+  "stderr": "",
+  "execution_time_ms": 52
+}

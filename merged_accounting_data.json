@@ -1,0 +1,4066 @@
+{
+  "clients": [
+    {
+      "id": "ארגיאל מסחר",
+      "name": "ארגיאל מסחר בעמ",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 5042.73,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "ארגיאל מסחר בעמ",
+          "name_normalized": "ארגיאל מסחר",
+          "amount": 4273.5,
+          "date": "2025-01-12",
+          "doc_number": "חע. 1743",
+          "sources": [
+            "icount_debtors"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "icount_debtors": {
+              "client": "ארגיאל מסחר בעמ",
+              "doc_number": "חע. 1743",
+              "due_date": "12-01-2025",
+              "amount": 4273.5,
+              "vat": 769.23,
+              "total": 5042.73,
+              "balance": 5042.73,
+              "days_overdue": 292,
+              "status": "overdue",
+              "urgency": "critical"
+            }
+          },
+          "client": "ארגיאל מסחר בעמ",
+          "due_date": "12-01-2025",
+          "vat": 769.23,
+          "total": 5042.73,
+          "balance": 5042.73,
+          "days_overdue": 292,
+          "status": "overdue",
+          "urgency": "critical"
+        }
+      ]
+    },
+    {
+      "id": "טריאו",
+      "name": "טריאו",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 4720.0,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "טריאו",
+          "name_normalized": "טריאו",
+          "amount": 4000.0,
+          "date": "2025-04-06",
+          "doc_number": "חע. 1879",
+          "sources": [
+            "icount_debtors"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "icount_debtors": {
+              "client": "טריאו",
+              "doc_number": "חע. 1879",
+              "due_date": "06-04-2025",
+              "amount": 4000.0,
+              "vat": 720.0,
+              "total": 4720.0,
+              "balance": 4720.0,
+              "days_overdue": 207,
+              "status": "overdue",
+              "urgency": "critical"
+            }
+          },
+          "client": "טריאו",
+          "due_date": "06-04-2025",
+          "vat": 720.0,
+          "total": 4720.0,
+          "balance": 4720.0,
+          "days_overdue": 207,
+          "status": "overdue",
+          "urgency": "critical"
+        }
+      ]
+    },
+    {
+      "id": "יריד וחוף פתח תקווה",
+      "name": "יריד וחוף פתח תקווה בעמ",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 737.5,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "יריד וחוף פתח תקווה בעמ",
+          "name_normalized": "יריד וחוף פתח תקווה",
+          "amount": 625.0,
+          "date": "2025-05-05",
+          "doc_number": "חע. 1912",
+          "sources": [
+            "icount_debtors"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "icount_debtors": {
+              "client": "יריד וחוף פתח תקווה בעמ",
+              "doc_number": "חע. 1912",
+              "due_date": "05-05-2025",
+              "amount": 625.0,
+              "vat": 112.5,
+              "total": 737.5,
+              "balance": 737.5,
+              "days_overdue": 178,
+              "status": "overdue",
+              "urgency": "high"
+            }
+          },
+          "client": "יריד וחוף פתח תקווה בעמ",
+          "due_date": "05-05-2025",
+          "vat": 112.5,
+          "total": 737.5,
+          "balance": 737.5,
+          "days_overdue": 178,
+          "status": "overdue",
+          "urgency": "high"
+        }
+      ]
+    },
+    {
+      "id": "סים פור פיינרי",
+      "name": "סים פור פיינרי בעמ",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 23600.0,
+      "open_invoices_count": 2,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "סים פור פיינרי בעמ",
+          "name_normalized": "סים פור פיינרי",
+          "amount": 12500.0,
+          "date": "2025-06-26",
+          "doc_number": "חע. 1973",
+          "sources": [
+            "icount_debtors"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "icount_debtors": {
+              "client": "סים פור פיינרי בעמ",
+              "doc_number": "חע. 1973",
+              "due_date": "26-06-2025",
+              "amount": 12500.0,
+              "vat": 2250.0,
+              "total": 14750.0,
+              "balance": 14750.0,
+              "days_overdue": 126,
+              "status": "overdue",
+              "urgency": "high"
+            }
+          },
+          "client": "סים פור פיינרי בעמ",
+          "due_date": "26-06-2025",
+          "vat": 2250.0,
+          "total": 14750.0,
+          "balance": 14750.0,
+          "days_overdue": 126,
+          "status": "overdue",
+          "urgency": "high"
+        },
+        {
+          "name": "סים פור פיינרי בעמ",
+          "name_normalized": "סים פור פיינרי",
+          "amount": 7500.0,
+          "date": "2025-07-15",
+          "doc_number": "חע. 2004",
+          "sources": [
+            "icount_debtors"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "icount_debtors": {
+              "client": "סים פור פיינרי בעמ",
+              "doc_number": "חע. 2004",
+              "due_date": "15-07-2025",
+              "amount": 7500.0,
+              "vat": 1350.0,
+              "total": 8850.0,
+              "balance": 8850.0,
+              "days_overdue": 107,
+              "status": "overdue",
+              "urgency": "high"
+            }
+          },
+          "client": "סים פור פיינרי בעמ",
+          "due_date": "15-07-2025",
+          "vat": 1350.0,
+          "total": 8850.0,
+          "balance": 8850.0,
+          "days_overdue": 107,
+          "status": "overdue",
+          "urgency": "high"
+        }
+      ]
+    },
+    {
+      "id": "אופנת טגל",
+      "name": "אופנת טגל",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 295.0,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "אופנת טגל",
+          "name_normalized": "אופנת טגל",
+          "amount": 250.0,
+          "date": "2025-07-02",
+          "doc_number": "חע. 1983",
+          "sources": [
+            "icount_debtors"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "icount_debtors": {
+              "client": "אופנת טגל",
+              "doc_number": "חע. 1983",
+              "due_date": "02-07-2025",
+              "amount": 250.0,
+              "vat": 45.0,
+              "total": 295.0,
+              "balance": 295.0,
+              "days_overdue": 120,
+              "status": "overdue",
+              "urgency": "medium"
+            }
+          },
+          "client": "אופנת טגל",
+          "due_date": "02-07-2025",
+          "vat": 45.0,
+          "total": 295.0,
+          "balance": 295.0,
+          "days_overdue": 120,
+          "status": "overdue",
+          "urgency": "medium"
+        }
+      ]
+    },
+    {
+      "id": "נדרי תעשיות עצבן",
+      "name": "נדרי תעשיות עצבן",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 100.3,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "נדרי תעשיות עצבן",
+          "name_normalized": "נדרי תעשיות עצבן",
+          "amount": 85.0,
+          "date": "2025-08-31",
+          "doc_number": "חע. 2061",
+          "sources": [
+            "icount_debtors"
+          ],
+          "confidence": 70.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "icount_debtors": {
+              "client": "נדרי תעשיות עצבן",
+              "doc_number": "חע. 2061",
+              "due_date": "31-08-2025",
+              "amount": 85.0,
+              "vat": 15.3,
+              "total": 100.3,
+              "balance": 100.3,
+              "days_overdue": 60,
+              "status": "overdue",
+              "urgency": "low"
+            }
+          },
+          "client": "נדרי תעשיות עצבן",
+          "due_date": "31-08-2025",
+          "vat": 15.3,
+          "total": 100.3,
+          "balance": 100.3,
+          "days_overdue": 60,
+          "status": "overdue",
+          "urgency": "low"
+        }
+      ]
+    },
+    {
+      "id": "פאאר גלרי יזמות",
+      "name": "פאאר גלרי יזמות בעמ",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 531.0,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "פאאר גלרי יזמות בעמ",
+          "name_normalized": "פאאר גלרי יזמות",
+          "amount": 450.0,
+          "date": "2025-08-03",
+          "doc_number": "חע. 2034",
+          "sources": [
+            "icount_debtors"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "icount_debtors": {
+              "client": "פאאר גלרי יזמות בעמ",
+              "doc_number": "חע. 2034",
+              "due_date": "03-08-2025",
+              "amount": 450.0,
+              "vat": 81.0,
+              "total": 531.0,
+              "balance": 531.0,
+              "days_overdue": 88,
+              "status": "overdue",
+              "urgency": "medium"
+            }
+          },
+          "client": "פאאר גלרי יזמות בעמ",
+          "due_date": "03-08-2025",
+          "vat": 81.0,
+          "total": 531.0,
+          "balance": 531.0,
+          "days_overdue": 88,
+          "status": "overdue",
+          "urgency": "medium"
+        }
+      ]
+    },
+    {
+      "id": "ab dental devices",
+      "name": "AB Dental Devices Ltd.",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 4248.0,
+      "open_invoices_count": 2,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "AB Dental Devices Ltd",
+          "name_normalized": "ab dental devices",
+          "amount": 1800.0,
+          "date": "2025-08-13",
+          "doc_number": "חע. 2048",
+          "sources": [
+            "icount_debtors",
+            "excel_open_docs"
+          ],
+          "confidence": 85.0,
+          "matches": [],
+          "send_email": true,
+          "last_reminder": "",
+          "notes": "לשלוח ולהקפיץ",
+          "raw_records": {
+            "icount_debtors": {
+              "client": "AB Dental Devices Ltd",
+              "doc_number": "חע. 2048",
+              "due_date": "13-08-2025",
+              "amount": 1800.0,
+              "vat": 324.0,
+              "total": 2124.0,
+              "balance": 2124.0,
+              "days_overdue": 78,
+              "status": "overdue",
+              "urgency": "medium"
+            },
+            "excel_open_docs": {
+              "לקוח / ספק": "AB Dental Devices Ltd.",
+              "תאריך": "13/08/2025",
+              "סה\"כ כולל מע\"מ": "2,124.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "V",
+              "תזכור פעם אחרונה": "",
+              "הערות": "לשלוח ולהקפיץ ",
+              "": ""
+            }
+          },
+          "client": "AB Dental Devices Ltd",
+          "due_date": "13-08-2025",
+          "vat": 324.0,
+          "total": 2124.0,
+          "balance": 2124.0,
+          "days_overdue": 78,
+          "status": "overdue",
+          "urgency": "medium"
+        },
+        {
+          "name": "AB Dental Devices Ltd.",
+          "name_normalized": "ab dental devices",
+          "amount": 2124.0,
+          "date": "2025-10-13",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "יש להם עוד חשבוניות כבר אבל מה עם השעות של החודש ? חודש שעבר ? נראה לי שהיו דברים מהמשימות+שעות בודדות . מעבר לזה מחר מחרתיים אשלח להם מה קורה עם התשלום שלהם",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "AB Dental Devices Ltd.",
+              "תאריך": "13/10/2025",
+              "סה\"כ כולל מע\"מ": "2,124.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "",
+              "תזכור פעם אחרונה": "",
+              "הערות": "יש להם עוד חשבוניות כבר אבל מה עם השעות של החודש ? חודש שעבר ? נראה לי שהיו דברים מהמשימות+שעות בודדות . מעבר לזה מחר מחרתיים אשלח להם מה קורה עם התשלום שלהם",
+              "": "נשלח בחודש אוקטובור - לא רלוונטי עדיין לשלוח מייל"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "דאטה אמת תקשורת",
+      "name": "דאטה אמת תקשורת בעמ",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 3823.2,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "דאטה אמת תקשורת בעמ",
+          "name_normalized": "דאטה אמת תקשורת",
+          "amount": 3240.0,
+          "date": "2025-08-26",
+          "doc_number": "חע. 2057",
+          "sources": [
+            "icount_debtors"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "icount_debtors": {
+              "client": "דאטה אמת תקשורת בעמ",
+              "doc_number": "חע. 2057",
+              "due_date": "26-08-2025",
+              "amount": 3240.0,
+              "vat": 583.2,
+              "total": 3823.2,
+              "balance": 3823.2,
+              "days_overdue": 65,
+              "status": "overdue",
+              "urgency": "medium"
+            }
+          },
+          "client": "דאטה אמת תקשורת בעמ",
+          "due_date": "26-08-2025",
+          "vat": 583.2,
+          "total": 3823.2,
+          "balance": 3823.2,
+          "days_overdue": 65,
+          "status": "overdue",
+          "urgency": "medium"
+        }
+      ]
+    },
+    {
+      "id": "גרואו פיימנטס",
+      "name": "גרואו פיימנטס בע\"מ",
+      "monthly_income_planned": 0,
+      "retainer_amount": 1200.0,
+      "total_debt": 56758.0,
+      "open_invoices_count": 3,
+      "has_retainer": true,
+      "retainer": {
+        "client": "גרואו פיימנטס בע\"מ",
+        "doc_number": "ריטיינר 72",
+        "date": "15/04/2025",
+        "amount": 1200.0,
+        "vat": 216.0,
+        "total": 1416.0,
+        "frequency": "חייב כל חודש",
+        "status": "active"
+      },
+      "debts": [
+        {
+          "name": "גרואו פיימנטס בעמ",
+          "name_normalized": "גרואו פיימנטס",
+          "amount": 26800.0,
+          "date": "2025-09-01",
+          "doc_number": "חע. 2062",
+          "sources": [
+            "icount_debtors",
+            "excel_open_docs"
+          ],
+          "confidence": 85.0,
+          "matches": [],
+          "send_email": true,
+          "last_reminder": "",
+          "notes": "גיל שלח תזכורת",
+          "raw_records": {
+            "icount_debtors": {
+              "client": "גרואו פיימנטס בעמ",
+              "doc_number": "חע. 2062",
+              "due_date": "01-09-2025",
+              "amount": 26800.0,
+              "vat": 4824.0,
+              "total": 31624.0,
+              "balance": 31624.0,
+              "days_overdue": 59,
+              "status": "overdue",
+              "urgency": "critical"
+            },
+            "excel_open_docs": {
+              "לקוח / ספק": "גרואו פיימנטס בע\"מ",
+              "תאריך": "1/9/2025",
+              "סה\"כ כולל מע\"מ": "31,624.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "V",
+              "תזכור פעם אחרונה": "",
+              "הערות": "גיל שלח תזכורת",
+              "": ""
+            }
+          },
+          "client": "גרואו פיימנטס בעמ",
+          "due_date": "01-09-2025",
+          "vat": 4824.0,
+          "total": 31624.0,
+          "balance": 31624.0,
+          "days_overdue": 59,
+          "status": "overdue",
+          "urgency": "critical"
+        },
+        {
+          "name": "גרואו פיימנטס בע\"מ",
+          "name_normalized": "גרואו פיימנטס",
+          "amount": 1416.0,
+          "date": "2025-10-15",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 70.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "גרואו פיימנטס בע\"מ",
+              "תאריך": "15/10/2025",
+              "סה\"כ כולל מע\"מ": "1,416.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "",
+              "תזכור פעם אחרונה": "",
+              "הערות": "",
+              "": ""
+            }
+          }
+        },
+        {
+          "name": "גרואו פיימנטס בע\"מ",
+          "name_normalized": "גרואו פיימנטס",
+          "amount": 23718.0,
+          "date": "2025-10-19",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "גרואו פיימנטס בע\"מ",
+              "תאריך": "19/10/2025",
+              "סה\"כ כולל מע\"מ": "23,718.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "",
+              "תזכור פעם אחרונה": "",
+              "הערות": "",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "one1 global",
+      "name": "One1 Global",
+      "monthly_income_planned": 750.0,
+      "retainer_amount": 3000.0,
+      "total_debt": 16461.0,
+      "open_invoices_count": 3,
+      "has_retainer": true,
+      "retainer": {
+        "client": "One1 Global",
+        "doc_number": "ריטיינר 77",
+        "date": "02/09/2025",
+        "amount": 3000.0,
+        "vat": 540.0,
+        "total": 3540.0,
+        "frequency": "חייב כל חודש",
+        "status": "active"
+      },
+      "debts": [
+        {
+          "name": "One1 Global",
+          "name_normalized": "one1 global",
+          "amount": 10384.0,
+          "date": "2025-09-01",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": true,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "One1 Global",
+              "תאריך": "1/9/2025",
+              "סה\"כ כולל מע\"מ": "10,384.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "V",
+              "תזכור פעם אחרונה": "",
+              "הערות": "",
+              "": "לא רלוונטי כרגע"
+            }
+          }
+        },
+        {
+          "name": "One1 Global",
+          "name_normalized": "one1 global",
+          "amount": 2537.0,
+          "date": "2025-10-01",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "One1 Global",
+              "תאריך": "1/10/2025",
+              "סה\"כ כולל מע\"מ": "2,537.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "",
+              "תזכור פעם אחרונה": "",
+              "הערות": "",
+              "": "בבדיקה של גיל"
+            }
+          }
+        },
+        {
+          "name": "One1 Global",
+          "name_normalized": "one1 global",
+          "amount": 3540.0,
+          "date": "2025-10-02",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 70.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "One1 Global",
+              "תאריך": "2/10/2025",
+              "סה\"כ כולל מע\"מ": "3,540.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "",
+              "תזכור פעם אחרונה": "",
+              "הערות": "",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "rotem industries",
+      "name": "Rotem Industries Ltd",
+      "monthly_income_planned": 0,
+      "retainer_amount": 750.0,
+      "total_debt": 885.0,
+      "open_invoices_count": 1,
+      "has_retainer": true,
+      "retainer": {
+        "client": "Rotem Industries Ltd",
+        "doc_number": "ריטיינר 79",
+        "date": "09/09/2025",
+        "amount": 750.0,
+        "vat": 135.0,
+        "total": 885.0,
+        "frequency": "חייב כל חודש",
+        "status": "active"
+      },
+      "debts": [
+        {
+          "name": "Rotem Industries Ltd",
+          "name_normalized": "rotem industries",
+          "amount": 885.0,
+          "date": "2025-10-09",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "Rotem Industries Ltd",
+              "תאריך": "9/10/2025",
+              "סה\"כ כולל מע\"מ": "885.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "",
+              "תזכור פעם אחרונה": "",
+              "הערות": "",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "א.א. רחמינוב יהלומים (2000)",
+      "name": "א.א. רחמינוב יהלומים (2000) בע\"מ",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 9440.0,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "א.א. רחמינוב יהלומים (2000) בע\"מ",
+          "name_normalized": "א.א. רחמינוב יהלומים (2000)",
+          "amount": 9440.0,
+          "date": "2025-10-09",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "א.א. רחמינוב יהלומים (2000) בע\"מ",
+              "תאריך": "9/10/2025",
+              "סה\"כ כולל מע\"מ": "9,440.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "",
+              "תזכור פעם אחרונה": "",
+              "הערות": "",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "א.ר.רפאל מסחר",
+      "name": "א.ר.רפאל מסחר בעמ",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 5042.7,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "א.ר.רפאל מסחר בעמ",
+          "name_normalized": "א.ר.רפאל מסחר",
+          "amount": 5042.7,
+          "date": "2025-01-12",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "לא רלוונטי כרגע",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "א.ר.רפאל מסחר בעמ",
+              "תאריך": "12/1/2025",
+              "סה\"כ כולל מע\"מ": "5,042.7",
+              "האם לשלוח מייל  לתזכורת תשלום": "",
+              "תזכור פעם אחרונה": "",
+              "הערות": "לא רלוונטי כרגע",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "אופנת סגל",
+      "name": "אופנת סגל",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 295.0,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "אופנת סגל",
+          "name_normalized": "אופנת סגל",
+          "amount": 295.0,
+          "date": "2025-07-02",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": true,
+          "last_reminder": "21/10/2025",
+          "notes": "נשלח מייל",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "אופנת סגל",
+              "תאריך": "2/7/2025",
+              "סה\"כ כולל מע\"מ": "295.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "V",
+              "תזכור פעם אחרונה": "21/10/2025",
+              "הערות": "נשלח מייל",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "אחמ קישורים עסקיים",
+      "name": "אח\"מ קישורים עסקיים בע\"מ",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 8850.0,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "אח\"מ קישורים עסקיים בע\"מ",
+          "name_normalized": "אחמ קישורים עסקיים",
+          "amount": 8850.0,
+          "date": "2025-10-16",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 70.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "אח\"מ קישורים עסקיים בע\"מ",
+              "תאריך": "16/10/2025",
+              "סה\"כ כולל מע\"מ": "8,850.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "",
+              "תזכור פעם אחרונה": "",
+              "הערות": "",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "איסתא ישראל",
+      "name": "איסתא ישראל בע\"מ",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 236.0,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "איסתא ישראל בע\"מ",
+          "name_normalized": "איסתא ישראל",
+          "amount": 236.0,
+          "date": "2025-10-01",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "איסתא ישראל בע\"מ",
+              "תאריך": "1/10/2025",
+              "סה\"כ כולל מע\"מ": "236.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "",
+              "תזכור פעם אחרונה": "",
+              "הערות": "",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "אלאור",
+      "name": "אלאור",
+      "monthly_income_planned": 450.0,
+      "retainer_amount": 0,
+      "total_debt": 531.0,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "אלאור",
+          "name_normalized": "אלאור",
+          "amount": 531.0,
+          "date": "2025-10-01",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "אלאור",
+              "תאריך": "1/10/2025",
+              "סה\"כ כולל מע\"מ": "531.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "",
+              "תזכור פעם אחרונה": "",
+              "הערות": "",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "גבדור",
+      "name": "גבדור בע\"מ",
+      "monthly_income_planned": 0,
+      "retainer_amount": 5826.27,
+      "total_debt": 6875.0,
+      "open_invoices_count": 1,
+      "has_retainer": true,
+      "retainer": {
+        "client": "גבדור בע\"מ",
+        "doc_number": "ריטיינר 76",
+        "date": "03/06/2025",
+        "amount": 5826.27,
+        "vat": 1048.73,
+        "total": 6875.0,
+        "frequency": "חייב כל חודש",
+        "status": "active"
+      },
+      "debts": [
+        {
+          "name": "גבדור בע\"מ",
+          "name_normalized": "גבדור",
+          "amount": 6875.0,
+          "date": "2025-10-03",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 70.0,
+          "matches": [],
+          "send_email": true,
+          "last_reminder": "נשלח מייל -20/10",
+          "notes": "",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "גבדור בע\"מ",
+              "תאריך": "3/10/2025",
+              "סה\"כ כולל מע\"מ": "6,875.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "V",
+              "תזכור פעם אחרונה": "נשלח מייל -20/10",
+              "הערות": "",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "דיגיטל וייב שיווק דיגיטלי",
+      "name": "דיגיטל וייב שיווק דיגיטלי בעמ",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 1475.0,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "דיגיטל וייב שיווק דיגיטלי בעמ",
+          "name_normalized": "דיגיטל וייב שיווק דיגיטלי",
+          "amount": 1475.0,
+          "date": "2025-10-03",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 70.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "דיגיטל וייב שיווק דיגיטלי בעמ",
+              "תאריך": "3/10/2025",
+              "סה\"כ כולל מע\"מ": "1,475.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "",
+              "תזכור פעם אחרונה": "",
+              "הערות": "",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "דניאל מתת תכשיטים",
+      "name": "דניאל מתת תכשיטים בע\"מ",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 3823.2,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "דניאל מתת תכשיטים בע\"מ",
+          "name_normalized": "דניאל מתת תכשיטים",
+          "amount": 3823.2,
+          "date": "2025-08-26",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "דיברנו לגביהם אתמול ואמרת לא לשלוח כרגע מייל",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "דניאל מתת תכשיטים בע\"מ",
+              "תאריך": "26/08/2025",
+              "סה\"כ כולל מע\"מ": "3,823.2",
+              "האם לשלוח מייל  לתזכורת תשלום": "",
+              "תזכור פעם אחרונה": "",
+              "הערות": "דיברנו לגביהם אתמול ואמרת לא לשלוח כרגע מייל",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "חומי ניהול נכסים ויזמות",
+      "name": "חומי ניהול נכסים ויזמות בע״מ",
+      "monthly_income_planned": 93.6,
+      "retainer_amount": 0,
+      "total_debt": 10738.0,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "חומי ניהול נכסים ויזמות בע״מ",
+          "name_normalized": "חומי ניהול נכסים ויזמות",
+          "amount": 10738.0,
+          "date": "2025-10-08",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "חומי ניהול נכסים ויזמות בע״מ",
+              "תאריך": "8/10/2025",
+              "סה\"כ כולל מע\"מ": "10,738.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "",
+              "תזכור פעם אחרונה": "",
+              "הערות": "",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "טריגו",
+      "name": "טריגו",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 4720.0,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "טריגו",
+          "name_normalized": "טריגו",
+          "amount": 4720.0,
+          "date": "2025-04-06",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": true,
+          "last_reminder": "21/10/2025",
+          "notes": "נשלח מייל",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "טריגו",
+              "תאריך": "6/4/2025",
+              "סה\"כ כולל מע\"מ": "4,720.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "V",
+              "תזכור פעם אחרונה": "21/10/2025",
+              "הערות": "נשלח מייל",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "יריב והדר פתח תקווה",
+      "name": "יריב והדר פתח תקווה בע\"מ",
+      "monthly_income_planned": 75.0,
+      "retainer_amount": 0,
+      "total_debt": 737.5,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "יריב והדר פתח תקווה בע\"מ",
+          "name_normalized": "יריב והדר פתח תקווה",
+          "amount": 737.5,
+          "date": "2025-05-05",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": true,
+          "last_reminder": "21/10/2025",
+          "notes": "נשלח מייל",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "יריב והדר פתח תקווה בע\"מ",
+              "תאריך": "5/5/2025",
+              "סה\"כ כולל מע\"מ": "737.5",
+              "האם לשלוח מייל  לתזכורת תשלום": "V",
+              "תזכור פעם אחרונה": "21/10/2025",
+              "הערות": "נשלח מייל",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "כרמל דיירקט",
+      "name": "כרמל דיירקט",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 4425.0,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "כרמל דיירקט",
+          "name_normalized": "כרמל דיירקט",
+          "amount": 4425.0,
+          "date": "2025-08-19",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "לשלוח כמובן",
+          "notes": "",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "כרמל דיירקט",
+              "תאריך": "19/08/2025",
+              "סה\"כ כולל מע\"מ": "4,425.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "לשלוח כמובן ",
+              "תזכור פעם אחרונה": "לשלוח כמובן ",
+              "הערות": "",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "מועצת ארגוני הילדים והנוער",
+      "name": "מועצת ארגוני הילדים והנוער",
+      "monthly_income_planned": 75.0,
+      "retainer_amount": 250.0,
+      "total_debt": 295.0,
+      "open_invoices_count": 1,
+      "has_retainer": true,
+      "retainer": {
+        "client": "מועצת ארגוני הילדים והנוער",
+        "doc_number": "ריטיינר 80",
+        "date": "18/09/2025",
+        "amount": 250.0,
+        "vat": 45.0,
+        "total": 295.0,
+        "frequency": "חייב כל חודש",
+        "status": "active"
+      },
+      "debts": [
+        {
+          "name": "מועצת ארגוני הילדים והנוער",
+          "name_normalized": "מועצת ארגוני הילדים והנוער",
+          "amount": 295.0,
+          "date": "2025-10-18",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "מועצת ארגוני הילדים והנוער",
+              "תאריך": "18/10/2025",
+              "סה\"כ כולל מע\"מ": "295.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "",
+              "תזכור פעם אחרונה": "",
+              "הערות": "",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "מכון הניג",
+      "name": "מכון הניג בעמ",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 5162.5,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "מכון הניג בעמ",
+          "name_normalized": "מכון הניג",
+          "amount": 5162.5,
+          "date": "2025-10-19",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "מכון הניג בעמ",
+              "תאריך": "19/10/2025",
+              "סה\"כ כולל מע\"מ": "5,162.5",
+              "האם לשלוח מייל  לתזכורת תשלום": "",
+              "תזכור פעם אחרונה": "",
+              "הערות": "",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "נ.ת.דגי בטשון",
+      "name": "נ.ת.דגי בטשון בע\"מ",
+      "monthly_income_planned": 450.0,
+      "retainer_amount": 0,
+      "total_debt": 3540.0,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "נ.ת.דגי בטשון בע\"מ",
+          "name_normalized": "נ.ת.דגי בטשון",
+          "amount": 3540.0,
+          "date": "2025-09-16",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "אין מה לשלוח כרגע",
+          "notes": "שלחתי לו אתמול תזכור בווטסאפ",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "נ.ת.דגי בטשון בע\"מ",
+              "תאריך": "16/09/2025",
+              "סה\"כ כולל מע\"מ": "3,540.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "",
+              "תזכור פעם אחרונה": "אין מה לשלוח כרגע",
+              "הערות": "שלחתי לו אתמול תזכור בווטסאפ",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "נדיר תעשיות צבע",
+      "name": "נדיר תעשיות צבע",
+      "monthly_income_planned": 99.45,
+      "retainer_amount": 0,
+      "total_debt": 100.3,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "נדיר תעשיות צבע",
+          "name_normalized": "נדיר תעשיות צבע",
+          "amount": 100.3,
+          "date": "2025-08-31",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 70.0,
+          "matches": [],
+          "send_email": true,
+          "last_reminder": "",
+          "notes": "נשלח מייל",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "נדיר תעשיות צבע",
+              "תאריך": "31/08/2025",
+              "סה\"כ כולל מע\"מ": "100.3",
+              "האם לשלוח מייל  לתזכורת תשלום": "V",
+              "תזכור פעם אחרונה": "",
+              "הערות": "נשלח מייל ",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "סים פור פליי",
+      "name": "סים פור פליי בע״מ",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 23600.0,
+      "open_invoices_count": 2,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "סים פור פליי בע״מ",
+          "name_normalized": "סים פור פליי",
+          "amount": 8850.0,
+          "date": "2025-07-15",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "עכשיו דיברתי איתו גם הוא אומר מחר מחר מחרמחרמחר",
+          "notes": "אמור לשלם לי היום ולראות מחר את הכסף",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "סים פור פליי בע״מ",
+              "תאריך": "15/07/2025",
+              "סה\"כ כולל מע\"מ": "8,850.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "כרגע לא לשלוח",
+              "תזכור פעם אחרונה": "עכשיו דיברתי איתו גם הוא אומר מחר מחר מחרמחרמחר",
+              "הערות": "אמור לשלם לי היום ולראות מחר את הכסף",
+              "": ""
+            }
+          }
+        },
+        {
+          "name": "סים פור פליי בע״מ",
+          "name_normalized": "סים פור פליי",
+          "amount": 14750.0,
+          "date": "2025-06-26",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "אמור לשלם לי היום ולראות מחר את הכסף",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "סים פור פליי בע״מ",
+              "תאריך": "26/06/2025",
+              "סה\"כ כולל מע\"מ": "14,750.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "כרגע לא לשלוח",
+              "תזכור פעם אחרונה": "",
+              "הערות": "אמור לשלם לי היום ולראות מחר את הכסף",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "סימפלי לאב",
+      "name": "סימפלי לאב בעמ",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 6372.0,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "סימפלי לאב בעמ",
+          "name_normalized": "סימפלי לאב",
+          "amount": 6372.0,
+          "date": "2025-10-16",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "סימפלי לאב בעמ",
+              "תאריך": "16/10/2025",
+              "סה\"כ כולל מע\"מ": "6,372.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "",
+              "תזכור פעם אחרונה": "",
+              "הערות": "",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "סימפלקס פתרונות מיפוי שב",
+      "name": "סימפלקס פתרונות מיפוי שב בע\"מ",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 14750.0,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "סימפלקס פתרונות מיפוי שב בע\"מ",
+          "name_normalized": "סימפלקס פתרונות מיפוי שב",
+          "amount": 14750.0,
+          "date": "2025-09-01",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "כרגע לא לשלוח",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "סימפלקס פתרונות מיפוי שב בע\"מ",
+              "תאריך": "1/9/2025",
+              "סה\"כ כולל מע\"מ": "14,750.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "כרגע לא לשלוח",
+              "תזכור פעם אחרונה": "",
+              "הערות": "כרגע לא לשלוח",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "עמיר דגן",
+      "name": "עמיר דגן",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 100.3,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "עמיר דגן",
+          "name_normalized": "עמיר דגן",
+          "amount": 100.3,
+          "date": "2025-10-20",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "עמיר דגן",
+              "תאריך": "20/10/2025",
+              "סה\"כ כולל מע\"מ": "100.3",
+              "האם לשלוח מייל  לתזכורת תשלום": "",
+              "תזכור פעם אחרונה": "",
+              "הערות": "",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "פאזל נתיבי יזמות",
+      "name": "פאזל נתיבי יזמות בע\"מ",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 2124.0,
+      "open_invoices_count": 2,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "פאזל נתיבי יזמות בע\"מ",
+          "name_normalized": "פאזל נתיבי יזמות",
+          "amount": 531.0,
+          "date": "2025-10-03",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 70.0,
+          "matches": [],
+          "send_email": true,
+          "last_reminder": "",
+          "notes": "נשלח מייל",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "פאזל נתיבי יזמות בע\"מ",
+              "תאריך": "3/10/2025",
+              "סה\"כ כולל מע\"מ": "531.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "V",
+              "תזכור פעם אחרונה": "",
+              "הערות": "נשלח מייל",
+              "": ""
+            }
+          }
+        },
+        {
+          "name": "פאזל נתיבי יזמות בע\"מ",
+          "name_normalized": "פאזל נתיבי יזמות",
+          "amount": 1593.0,
+          "date": "2025-08-27",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": true,
+          "last_reminder": "",
+          "notes": "נשלח מייל",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "פאזל נתיבי יזמות בע\"מ",
+              "תאריך": "27/08/2025",
+              "סה\"כ כולל מע\"מ": "1,593.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "V",
+              "תזכור פעם אחרונה": "",
+              "הערות": "נשלח מייל",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "פורס מדיה ישראל",
+      "name": "פורס מדיה ישראל בע\"מ",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 3941.2,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "פורס מדיה ישראל בע\"מ",
+          "name_normalized": "פורס מדיה ישראל",
+          "amount": 3941.2,
+          "date": "2025-10-16",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "פורס מדיה ישראל בע\"מ",
+              "תאריך": "16/10/2025",
+              "סה\"כ כולל מע\"מ": "3,941.2",
+              "האם לשלוח מייל  לתזכורת תשלום": "",
+              "תזכור פעם אחרונה": "",
+              "הערות": "",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "פרומיקסט",
+      "name": "פרומיקסט בע\"מ",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 13510.8,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "פרומיקסט בע\"מ",
+          "name_normalized": "פרומיקסט",
+          "amount": 13510.8,
+          "date": "2025-10-12",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "פרומיקסט בע\"מ",
+              "תאריך": "12/10/2025",
+              "סה\"כ כולל מע\"מ": "13,510.8",
+              "האם לשלוח מייל  לתזכורת תשלום": "",
+              "תזכור פעם אחרונה": "",
+              "הערות": "",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "קורן פתרונות חזותיים",
+      "name": "קורן פתרונות חזותיים בע\"מ",
+      "monthly_income_planned": 0,
+      "retainer_amount": 0,
+      "total_debt": 20768.0,
+      "open_invoices_count": 1,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": [
+        {
+          "name": "קורן פתרונות חזותיים בע\"מ",
+          "name_normalized": "קורן פתרונות חזותיים",
+          "amount": 20768.0,
+          "date": "2025-10-12",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 100.0,
+          "matches": [],
+          "send_email": false,
+          "last_reminder": "",
+          "notes": "",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "קורן פתרונות חזותיים בע\"מ",
+              "תאריך": "12/10/2025",
+              "סה\"כ כולל מע\"מ": "20,768.0",
+              "האם לשלוח מייל  לתזכורת תשלום": "",
+              "תזכור פעם אחרונה": "",
+              "הערות": "",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "תום רוזנווסר",
+      "name": "תום רוזנווסר",
+      "monthly_income_planned": 0,
+      "retainer_amount": 65.25,
+      "total_debt": 76.7,
+      "open_invoices_count": 1,
+      "has_retainer": true,
+      "retainer": {
+        "client": "תום רוזנווסר",
+        "doc_number": "ריטיינר 71",
+        "date": "03/02/2025",
+        "amount": 65.25,
+        "vat": 11.75,
+        "total": 77.0,
+        "frequency": "חייב כל חודש",
+        "status": "active"
+      },
+      "debts": [
+        {
+          "name": "תום רוזנווסר",
+          "name_normalized": "תום רוזנווסר",
+          "amount": 76.7,
+          "date": "2025-10-03",
+          "doc_number": "",
+          "sources": [
+            "excel_open_docs"
+          ],
+          "confidence": 70.0,
+          "matches": [],
+          "send_email": true,
+          "last_reminder": "",
+          "notes": "נשלח מייל",
+          "raw_records": {
+            "excel_open_docs": {
+              "לקוח / ספק": "תום רוזנווסר",
+              "תאריך": "3/10/2025",
+              "סה\"כ כולל מע\"מ": "76.7",
+              "האם לשלוח מייל  לתזכורת תשלום": "V",
+              "תזכור פעם אחרונה": "",
+              "הערות": "נשלח מייל",
+              "": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "issta + academy",
+      "name": "issta + academy",
+      "monthly_income_planned": 250.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "ab-dent",
+      "name": "ab-dent",
+      "monthly_income_planned": 4500.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "meshualm",
+      "name": "meshualm",
+      "monthly_income_planned": 25000.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "tool box",
+      "name": "tool box",
+      "monthly_income_planned": 20000.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "hvron zalzman",
+      "name": "hvron zalzman",
+      "monthly_income_planned": 3000.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "rub",
+      "name": "rub",
+      "monthly_income_planned": 2000.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "funia",
+      "name": "funia",
+      "monthly_income_planned": 2000.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "bewell",
+      "name": "bewell",
+      "monthly_income_planned": 400.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "אנירביץ",
+      "name": "אנירביץ",
+      "monthly_income_planned": 75.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "בר גיורא",
+      "name": "בר גיורא",
+      "monthly_income_planned": 400.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "מאזדה בלוגס*2",
+      "name": "מאזדה בלוגס*2",
+      "monthly_income_planned": 800.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "מור קורן",
+      "name": "מור קורן",
+      "monthly_income_planned": 75.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "עטאף",
+      "name": "עטאף",
+      "monthly_income_planned": 150.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "חברון זלצמן  514080738",
+      "name": "חברון זלצמן בע\"מ 514080738",
+      "monthly_income_planned": 76.05,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "ש.נ.ג בנגל ניהול ואחזקות  515694701",
+      "name": "ש.נ.ג בנגל ניהול ואחזקות בע\"מ 515694701",
+      "monthly_income_planned": 76.05,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "אביחי אביב 036778942",
+      "name": "אביחי אביב 036778942",
+      "monthly_income_planned": 82.95,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "מרכז איילון",
+      "name": "מרכז איילון",
+      "monthly_income_planned": 76.05,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "אודיו-מדיק",
+      "name": "אודיו-מדיק בע\"מ",
+      "monthly_income_planned": 87.75,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "גאנגל סאונד",
+      "name": "ג'אנגל סאונד בע\"מ",
+      "monthly_income_planned": 76.05,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "פארמאסט",
+      "name": "פארמאסט בע\"מ",
+      "monthly_income_planned": 836.55,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "איי- קמפ  516132586",
+      "name": "איי- קמפ בע\"מ 516132586",
+      "monthly_income_planned": 468.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "איתי אלטשולר 058034059",
+      "name": "איתי אלטשולר 058034059",
+      "monthly_income_planned": 76.05,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "דש לבריאות",
+      "name": "דש לבריאות",
+      "monthly_income_planned": 140.4,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "דוידיאן גיל -אס מלינו 035887504",
+      "name": "דוידיאן גיל -אס מלינו 035887504",
+      "monthly_income_planned": 836.55,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "נדב סמליאן 043491786",
+      "name": "נדב סמליאן 043491786",
+      "monthly_income_planned": 936.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "פוניה",
+      "name": "פוניה בע\"מ",
+      "monthly_income_planned": 1053.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "bhuka a.m",
+      "name": "Bhuka A.M LTD",
+      "monthly_income_planned": 526.5,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "דר מננה דן - מרכז לרפואה אסתטית",
+      "name": "ד\"ר מננה דן - מרכז לרפואה אסתטית בע\"מ",
+      "monthly_income_planned": 292.5,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "ירון מישר 050647676",
+      "name": "ירון מישר 050647676",
+      "monthly_income_planned": 409.5,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "מועדון הגריי",
+      "name": "מועדון הגריי בעמ",
+      "monthly_income_planned": 3510.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "איי4 די  515108264",
+      "name": "איי4 די בע\"מ 515108264",
+      "monthly_income_planned": 234.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "סלסלה אחזקות",
+      "name": "סלסלה אחזקות בעמ",
+      "monthly_income_planned": 1755.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "רילקס עיסוי רפואי",
+      "name": "רילקס עיסוי רפואי",
+      "monthly_income_planned": 58.5,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "ליגלוויז",
+      "name": "ליגלוויז בעמ",
+      "monthly_income_planned": 87.75,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "חכמת ההזדקנות",
+      "name": "חכמת ההזדקנות",
+      "monthly_income_planned": 87.75,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "טל אופיר משרד עורכי דין",
+      "name": "טל אופיר משרד עורכי דין",
+      "monthly_income_planned": 234.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "hacal.co.il",
+      "name": "hacal.co.il",
+      "monthly_income_planned": 75.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "http://messtory.com/",
+      "name": "http://messtory.com/",
+      "monthly_income_planned": 75.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "http://movetime.co.il/",
+      "name": "http://movetime.co.il/",
+      "monthly_income_planned": 75.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "https://mvm38.co.il/",
+      "name": "https://mvm38.co.il/",
+      "monthly_income_planned": 75.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "muslala.org",
+      "name": "muslala.org",
+      "monthly_income_planned": 200.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "ranpharma.com",
+      "name": "ranpharma.com",
+      "monthly_income_planned": 200.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "http://segal-fashion.co.il/",
+      "name": "http://segal-fashion.co.il/",
+      "monthly_income_planned": 85.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "https://www.selanetwork.com/",
+      "name": "https://www.selanetwork.com/",
+      "monthly_income_planned": 75.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "leasing2u.co.il",
+      "name": "leasing2u.co.il",
+      "monthly_income_planned": 75.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "top-d.co.il",
+      "name": "top-d.co.il",
+      "monthly_income_planned": 75.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "https://www.techcent.com/",
+      "name": "https://www.techcent.com/",
+      "monthly_income_planned": 75.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "רוני הרב",
+      "name": "רוני הרב",
+      "monthly_income_planned": 350.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "מרמלדה",
+      "name": "מרמלדה",
+      "monthly_income_planned": 18000.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "בנות זמש",
+      "name": "בנות זמש",
+      "monthly_income_planned": 500.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "פולירון",
+      "name": "פולירון",
+      "monthly_income_planned": 1250.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "silise",
+      "name": "silise",
+      "monthly_income_planned": 750.0,
+      "retainer_amount": 0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": false,
+      "retainer": null,
+      "debts": []
+    },
+    {
+      "id": "איר טי אל וי תיירות ונופש",
+      "name": "איר טי אל וי תיירות ונופש",
+      "monthly_income_planned": 0,
+      "retainer_amount": 450.0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": true,
+      "retainer": {
+        "client": "איר טי אל וי תיירות ונופש",
+        "doc_number": "ריטיינר 81",
+        "date": "23/10/2025",
+        "amount": 450.0,
+        "vat": 81.0,
+        "total": 531.0,
+        "frequency": "חייב כל חודש",
+        "status": "active"
+      },
+      "debts": []
+    },
+    {
+      "id": "צופים עולמי",
+      "name": "צופים עולמי",
+      "monthly_income_planned": 0,
+      "retainer_amount": 779.66,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": true,
+      "retainer": {
+        "client": "צופים עולמי",
+        "doc_number": "ריטיינר 74",
+        "date": "12/05/2025",
+        "amount": 779.66,
+        "vat": 140.34,
+        "total": 920.0,
+        "frequency": "חייב כל חודש",
+        "status": "active"
+      },
+      "debts": []
+    },
+    {
+      "id": "ghd mosaic design studio",
+      "name": "ghd mosaic design studio",
+      "monthly_income_planned": 0,
+      "retainer_amount": 1096.0,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": true,
+      "retainer": {
+        "client": "ghd mosaic design studio",
+        "doc_number": "ריטיינר 75",
+        "date": "12/05/2025",
+        "amount": 1096.0,
+        "vat": 0.0,
+        "total": 1096.0,
+        "frequency": "חייב כל חודש",
+        "status": "active"
+      },
+      "debts": []
+    },
+    {
+      "id": "שמר בטיחות - יועצים",
+      "name": "שמר בטיחות - יועצים בע\"מ",
+      "monthly_income_planned": 0,
+      "retainer_amount": 170.34,
+      "total_debt": 0,
+      "open_invoices_count": 0,
+      "has_retainer": true,
+      "retainer": {
+        "client": "שמר בטיחות - יועצים בע\"מ",
+        "doc_number": "ריטיינר 73",
+        "date": "01/05/2025",
+        "amount": 170.34,
+        "vat": 30.66,
+        "total": 201.0,
+        "frequency": "חייב כל חודש",
+        "status": "active"
+      },
+      "debts": []
+    }
+  ],
+  "debtors_report": [
+    {
+      "name": "ארגיאל מסחר בעמ",
+      "name_normalized": "ארגיאל מסחר",
+      "amount": 4273.5,
+      "date": "2025-01-12",
+      "doc_number": "חע. 1743",
+      "sources": [
+        "icount_debtors"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "icount_debtors": {
+          "client": "ארגיאל מסחר בעמ",
+          "doc_number": "חע. 1743",
+          "due_date": "12-01-2025",
+          "amount": 4273.5,
+          "vat": 769.23,
+          "total": 5042.73,
+          "balance": 5042.73,
+          "days_overdue": 292,
+          "status": "overdue",
+          "urgency": "critical"
+        }
+      },
+      "client": "ארגיאל מסחר בעמ",
+      "due_date": "12-01-2025",
+      "vat": 769.23,
+      "total": 5042.73,
+      "balance": 5042.73,
+      "days_overdue": 292,
+      "status": "overdue",
+      "urgency": "critical"
+    },
+    {
+      "name": "טריאו",
+      "name_normalized": "טריאו",
+      "amount": 4000.0,
+      "date": "2025-04-06",
+      "doc_number": "חע. 1879",
+      "sources": [
+        "icount_debtors"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "icount_debtors": {
+          "client": "טריאו",
+          "doc_number": "חע. 1879",
+          "due_date": "06-04-2025",
+          "amount": 4000.0,
+          "vat": 720.0,
+          "total": 4720.0,
+          "balance": 4720.0,
+          "days_overdue": 207,
+          "status": "overdue",
+          "urgency": "critical"
+        }
+      },
+      "client": "טריאו",
+      "due_date": "06-04-2025",
+      "vat": 720.0,
+      "total": 4720.0,
+      "balance": 4720.0,
+      "days_overdue": 207,
+      "status": "overdue",
+      "urgency": "critical"
+    },
+    {
+      "name": "יריד וחוף פתח תקווה בעמ",
+      "name_normalized": "יריד וחוף פתח תקווה",
+      "amount": 625.0,
+      "date": "2025-05-05",
+      "doc_number": "חע. 1912",
+      "sources": [
+        "icount_debtors"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "icount_debtors": {
+          "client": "יריד וחוף פתח תקווה בעמ",
+          "doc_number": "חע. 1912",
+          "due_date": "05-05-2025",
+          "amount": 625.0,
+          "vat": 112.5,
+          "total": 737.5,
+          "balance": 737.5,
+          "days_overdue": 178,
+          "status": "overdue",
+          "urgency": "high"
+        }
+      },
+      "client": "יריד וחוף פתח תקווה בעמ",
+      "due_date": "05-05-2025",
+      "vat": 112.5,
+      "total": 737.5,
+      "balance": 737.5,
+      "days_overdue": 178,
+      "status": "overdue",
+      "urgency": "high"
+    },
+    {
+      "name": "סים פור פיינרי בעמ",
+      "name_normalized": "סים פור פיינרי",
+      "amount": 12500.0,
+      "date": "2025-06-26",
+      "doc_number": "חע. 1973",
+      "sources": [
+        "icount_debtors"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "icount_debtors": {
+          "client": "סים פור פיינרי בעמ",
+          "doc_number": "חע. 1973",
+          "due_date": "26-06-2025",
+          "amount": 12500.0,
+          "vat": 2250.0,
+          "total": 14750.0,
+          "balance": 14750.0,
+          "days_overdue": 126,
+          "status": "overdue",
+          "urgency": "high"
+        }
+      },
+      "client": "סים פור פיינרי בעמ",
+      "due_date": "26-06-2025",
+      "vat": 2250.0,
+      "total": 14750.0,
+      "balance": 14750.0,
+      "days_overdue": 126,
+      "status": "overdue",
+      "urgency": "high"
+    },
+    {
+      "name": "אופנת טגל",
+      "name_normalized": "אופנת טגל",
+      "amount": 250.0,
+      "date": "2025-07-02",
+      "doc_number": "חע. 1983",
+      "sources": [
+        "icount_debtors"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "icount_debtors": {
+          "client": "אופנת טגל",
+          "doc_number": "חע. 1983",
+          "due_date": "02-07-2025",
+          "amount": 250.0,
+          "vat": 45.0,
+          "total": 295.0,
+          "balance": 295.0,
+          "days_overdue": 120,
+          "status": "overdue",
+          "urgency": "medium"
+        }
+      },
+      "client": "אופנת טגל",
+      "due_date": "02-07-2025",
+      "vat": 45.0,
+      "total": 295.0,
+      "balance": 295.0,
+      "days_overdue": 120,
+      "status": "overdue",
+      "urgency": "medium"
+    },
+    {
+      "name": "סים פור פיינרי בעמ",
+      "name_normalized": "סים פור פיינרי",
+      "amount": 7500.0,
+      "date": "2025-07-15",
+      "doc_number": "חע. 2004",
+      "sources": [
+        "icount_debtors"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "icount_debtors": {
+          "client": "סים פור פיינרי בעמ",
+          "doc_number": "חע. 2004",
+          "due_date": "15-07-2025",
+          "amount": 7500.0,
+          "vat": 1350.0,
+          "total": 8850.0,
+          "balance": 8850.0,
+          "days_overdue": 107,
+          "status": "overdue",
+          "urgency": "high"
+        }
+      },
+      "client": "סים פור פיינרי בעמ",
+      "due_date": "15-07-2025",
+      "vat": 1350.0,
+      "total": 8850.0,
+      "balance": 8850.0,
+      "days_overdue": 107,
+      "status": "overdue",
+      "urgency": "high"
+    },
+    {
+      "name": "נדרי תעשיות עצבן",
+      "name_normalized": "נדרי תעשיות עצבן",
+      "amount": 85.0,
+      "date": "2025-08-31",
+      "doc_number": "חע. 2061",
+      "sources": [
+        "icount_debtors"
+      ],
+      "confidence": 70.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "icount_debtors": {
+          "client": "נדרי תעשיות עצבן",
+          "doc_number": "חע. 2061",
+          "due_date": "31-08-2025",
+          "amount": 85.0,
+          "vat": 15.3,
+          "total": 100.3,
+          "balance": 100.3,
+          "days_overdue": 60,
+          "status": "overdue",
+          "urgency": "low"
+        }
+      },
+      "client": "נדרי תעשיות עצבן",
+      "due_date": "31-08-2025",
+      "vat": 15.3,
+      "total": 100.3,
+      "balance": 100.3,
+      "days_overdue": 60,
+      "status": "overdue",
+      "urgency": "low"
+    },
+    {
+      "name": "פאאר גלרי יזמות בעמ",
+      "name_normalized": "פאאר גלרי יזמות",
+      "amount": 450.0,
+      "date": "2025-08-03",
+      "doc_number": "חע. 2034",
+      "sources": [
+        "icount_debtors"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "icount_debtors": {
+          "client": "פאאר גלרי יזמות בעמ",
+          "doc_number": "חע. 2034",
+          "due_date": "03-08-2025",
+          "amount": 450.0,
+          "vat": 81.0,
+          "total": 531.0,
+          "balance": 531.0,
+          "days_overdue": 88,
+          "status": "overdue",
+          "urgency": "medium"
+        }
+      },
+      "client": "פאאר גלרי יזמות בעמ",
+      "due_date": "03-08-2025",
+      "vat": 81.0,
+      "total": 531.0,
+      "balance": 531.0,
+      "days_overdue": 88,
+      "status": "overdue",
+      "urgency": "medium"
+    },
+    {
+      "name": "AB Dental Devices Ltd",
+      "name_normalized": "ab dental devices",
+      "amount": 1800.0,
+      "date": "2025-08-13",
+      "doc_number": "חע. 2048",
+      "sources": [
+        "icount_debtors",
+        "excel_open_docs"
+      ],
+      "confidence": 85.0,
+      "matches": [],
+      "send_email": true,
+      "last_reminder": "",
+      "notes": "לשלוח ולהקפיץ",
+      "raw_records": {
+        "icount_debtors": {
+          "client": "AB Dental Devices Ltd",
+          "doc_number": "חע. 2048",
+          "due_date": "13-08-2025",
+          "amount": 1800.0,
+          "vat": 324.0,
+          "total": 2124.0,
+          "balance": 2124.0,
+          "days_overdue": 78,
+          "status": "overdue",
+          "urgency": "medium"
+        },
+        "excel_open_docs": {
+          "לקוח / ספק": "AB Dental Devices Ltd.",
+          "תאריך": "13/08/2025",
+          "סה\"כ כולל מע\"מ": "2,124.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "V",
+          "תזכור פעם אחרונה": "",
+          "הערות": "לשלוח ולהקפיץ ",
+          "": ""
+        }
+      },
+      "client": "AB Dental Devices Ltd",
+      "due_date": "13-08-2025",
+      "vat": 324.0,
+      "total": 2124.0,
+      "balance": 2124.0,
+      "days_overdue": 78,
+      "status": "overdue",
+      "urgency": "medium"
+    },
+    {
+      "name": "דאטה אמת תקשורת בעמ",
+      "name_normalized": "דאטה אמת תקשורת",
+      "amount": 3240.0,
+      "date": "2025-08-26",
+      "doc_number": "חע. 2057",
+      "sources": [
+        "icount_debtors"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "icount_debtors": {
+          "client": "דאטה אמת תקשורת בעמ",
+          "doc_number": "חע. 2057",
+          "due_date": "26-08-2025",
+          "amount": 3240.0,
+          "vat": 583.2,
+          "total": 3823.2,
+          "balance": 3823.2,
+          "days_overdue": 65,
+          "status": "overdue",
+          "urgency": "medium"
+        }
+      },
+      "client": "דאטה אמת תקשורת בעמ",
+      "due_date": "26-08-2025",
+      "vat": 583.2,
+      "total": 3823.2,
+      "balance": 3823.2,
+      "days_overdue": 65,
+      "status": "overdue",
+      "urgency": "medium"
+    },
+    {
+      "name": "גרואו פיימנטס בעמ",
+      "name_normalized": "גרואו פיימנטס",
+      "amount": 26800.0,
+      "date": "2025-09-01",
+      "doc_number": "חע. 2062",
+      "sources": [
+        "icount_debtors",
+        "excel_open_docs"
+      ],
+      "confidence": 85.0,
+      "matches": [],
+      "send_email": true,
+      "last_reminder": "",
+      "notes": "גיל שלח תזכורת",
+      "raw_records": {
+        "icount_debtors": {
+          "client": "גרואו פיימנטס בעמ",
+          "doc_number": "חע. 2062",
+          "due_date": "01-09-2025",
+          "amount": 26800.0,
+          "vat": 4824.0,
+          "total": 31624.0,
+          "balance": 31624.0,
+          "days_overdue": 59,
+          "status": "overdue",
+          "urgency": "critical"
+        },
+        "excel_open_docs": {
+          "לקוח / ספק": "גרואו פיימנטס בע\"מ",
+          "תאריך": "1/9/2025",
+          "סה\"כ כולל מע\"מ": "31,624.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "V",
+          "תזכור פעם אחרונה": "",
+          "הערות": "גיל שלח תזכורת",
+          "": ""
+        }
+      },
+      "client": "גרואו פיימנטס בעמ",
+      "due_date": "01-09-2025",
+      "vat": 4824.0,
+      "total": 31624.0,
+      "balance": 31624.0,
+      "days_overdue": 59,
+      "status": "overdue",
+      "urgency": "critical"
+    },
+    {
+      "name": "AB Dental Devices Ltd.",
+      "name_normalized": "ab dental devices",
+      "amount": 2124.0,
+      "date": "2025-10-13",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "יש להם עוד חשבוניות כבר אבל מה עם השעות של החודש ? חודש שעבר ? נראה לי שהיו דברים מהמשימות+שעות בודדות . מעבר לזה מחר מחרתיים אשלח להם מה קורה עם התשלום שלהם",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "AB Dental Devices Ltd.",
+          "תאריך": "13/10/2025",
+          "סה\"כ כולל מע\"מ": "2,124.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "",
+          "תזכור פעם אחרונה": "",
+          "הערות": "יש להם עוד חשבוניות כבר אבל מה עם השעות של החודש ? חודש שעבר ? נראה לי שהיו דברים מהמשימות+שעות בודדות . מעבר לזה מחר מחרתיים אשלח להם מה קורה עם התשלום שלהם",
+          "": "נשלח בחודש אוקטובור - לא רלוונטי עדיין לשלוח מייל"
+        }
+      }
+    },
+    {
+      "name": "One1 Global",
+      "name_normalized": "one1 global",
+      "amount": 10384.0,
+      "date": "2025-09-01",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": true,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "One1 Global",
+          "תאריך": "1/9/2025",
+          "סה\"כ כולל מע\"מ": "10,384.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "V",
+          "תזכור פעם אחרונה": "",
+          "הערות": "",
+          "": "לא רלוונטי כרגע"
+        }
+      }
+    },
+    {
+      "name": "One1 Global",
+      "name_normalized": "one1 global",
+      "amount": 2537.0,
+      "date": "2025-10-01",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "One1 Global",
+          "תאריך": "1/10/2025",
+          "סה\"כ כולל מע\"מ": "2,537.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "",
+          "תזכור פעם אחרונה": "",
+          "הערות": "",
+          "": "בבדיקה של גיל"
+        }
+      }
+    },
+    {
+      "name": "One1 Global",
+      "name_normalized": "one1 global",
+      "amount": 3540.0,
+      "date": "2025-10-02",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 70.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "One1 Global",
+          "תאריך": "2/10/2025",
+          "סה\"כ כולל מע\"מ": "3,540.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "",
+          "תזכור פעם אחרונה": "",
+          "הערות": "",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "Rotem Industries Ltd",
+      "name_normalized": "rotem industries",
+      "amount": 885.0,
+      "date": "2025-10-09",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "Rotem Industries Ltd",
+          "תאריך": "9/10/2025",
+          "סה\"כ כולל מע\"מ": "885.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "",
+          "תזכור פעם אחרונה": "",
+          "הערות": "",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "א.א. רחמינוב יהלומים (2000) בע\"מ",
+      "name_normalized": "א.א. רחמינוב יהלומים (2000)",
+      "amount": 9440.0,
+      "date": "2025-10-09",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "א.א. רחמינוב יהלומים (2000) בע\"מ",
+          "תאריך": "9/10/2025",
+          "סה\"כ כולל מע\"מ": "9,440.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "",
+          "תזכור פעם אחרונה": "",
+          "הערות": "",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "א.ר.רפאל מסחר בעמ",
+      "name_normalized": "א.ר.רפאל מסחר",
+      "amount": 5042.7,
+      "date": "2025-01-12",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "לא רלוונטי כרגע",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "א.ר.רפאל מסחר בעמ",
+          "תאריך": "12/1/2025",
+          "סה\"כ כולל מע\"מ": "5,042.7",
+          "האם לשלוח מייל  לתזכורת תשלום": "",
+          "תזכור פעם אחרונה": "",
+          "הערות": "לא רלוונטי כרגע",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "אופנת סגל",
+      "name_normalized": "אופנת סגל",
+      "amount": 295.0,
+      "date": "2025-07-02",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": true,
+      "last_reminder": "21/10/2025",
+      "notes": "נשלח מייל",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "אופנת סגל",
+          "תאריך": "2/7/2025",
+          "סה\"כ כולל מע\"מ": "295.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "V",
+          "תזכור פעם אחרונה": "21/10/2025",
+          "הערות": "נשלח מייל",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "אח\"מ קישורים עסקיים בע\"מ",
+      "name_normalized": "אחמ קישורים עסקיים",
+      "amount": 8850.0,
+      "date": "2025-10-16",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 70.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "אח\"מ קישורים עסקיים בע\"מ",
+          "תאריך": "16/10/2025",
+          "סה\"כ כולל מע\"מ": "8,850.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "",
+          "תזכור פעם אחרונה": "",
+          "הערות": "",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "איסתא ישראל בע\"מ",
+      "name_normalized": "איסתא ישראל",
+      "amount": 236.0,
+      "date": "2025-10-01",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "איסתא ישראל בע\"מ",
+          "תאריך": "1/10/2025",
+          "סה\"כ כולל מע\"מ": "236.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "",
+          "תזכור פעם אחרונה": "",
+          "הערות": "",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "אלאור",
+      "name_normalized": "אלאור",
+      "amount": 531.0,
+      "date": "2025-10-01",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "אלאור",
+          "תאריך": "1/10/2025",
+          "סה\"כ כולל מע\"מ": "531.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "",
+          "תזכור פעם אחרונה": "",
+          "הערות": "",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "גבדור בע\"מ",
+      "name_normalized": "גבדור",
+      "amount": 6875.0,
+      "date": "2025-10-03",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 70.0,
+      "matches": [],
+      "send_email": true,
+      "last_reminder": "נשלח מייל -20/10",
+      "notes": "",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "גבדור בע\"מ",
+          "תאריך": "3/10/2025",
+          "סה\"כ כולל מע\"מ": "6,875.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "V",
+          "תזכור פעם אחרונה": "נשלח מייל -20/10",
+          "הערות": "",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "גרואו פיימנטס בע\"מ",
+      "name_normalized": "גרואו פיימנטס",
+      "amount": 1416.0,
+      "date": "2025-10-15",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 70.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "גרואו פיימנטס בע\"מ",
+          "תאריך": "15/10/2025",
+          "סה\"כ כולל מע\"מ": "1,416.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "",
+          "תזכור פעם אחרונה": "",
+          "הערות": "",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "גרואו פיימנטס בע\"מ",
+      "name_normalized": "גרואו פיימנטס",
+      "amount": 23718.0,
+      "date": "2025-10-19",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "גרואו פיימנטס בע\"מ",
+          "תאריך": "19/10/2025",
+          "סה\"כ כולל מע\"מ": "23,718.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "",
+          "תזכור פעם אחרונה": "",
+          "הערות": "",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "דיגיטל וייב שיווק דיגיטלי בעמ",
+      "name_normalized": "דיגיטל וייב שיווק דיגיטלי",
+      "amount": 1475.0,
+      "date": "2025-10-03",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 70.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "דיגיטל וייב שיווק דיגיטלי בעמ",
+          "תאריך": "3/10/2025",
+          "סה\"כ כולל מע\"מ": "1,475.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "",
+          "תזכור פעם אחרונה": "",
+          "הערות": "",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "דניאל מתת תכשיטים בע\"מ",
+      "name_normalized": "דניאל מתת תכשיטים",
+      "amount": 3823.2,
+      "date": "2025-08-26",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "דיברנו לגביהם אתמול ואמרת לא לשלוח כרגע מייל",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "דניאל מתת תכשיטים בע\"מ",
+          "תאריך": "26/08/2025",
+          "סה\"כ כולל מע\"מ": "3,823.2",
+          "האם לשלוח מייל  לתזכורת תשלום": "",
+          "תזכור פעם אחרונה": "",
+          "הערות": "דיברנו לגביהם אתמול ואמרת לא לשלוח כרגע מייל",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "חומי ניהול נכסים ויזמות בע״מ",
+      "name_normalized": "חומי ניהול נכסים ויזמות",
+      "amount": 10738.0,
+      "date": "2025-10-08",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "חומי ניהול נכסים ויזמות בע״מ",
+          "תאריך": "8/10/2025",
+          "סה\"כ כולל מע\"מ": "10,738.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "",
+          "תזכור פעם אחרונה": "",
+          "הערות": "",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "טריגו",
+      "name_normalized": "טריגו",
+      "amount": 4720.0,
+      "date": "2025-04-06",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": true,
+      "last_reminder": "21/10/2025",
+      "notes": "נשלח מייל",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "טריגו",
+          "תאריך": "6/4/2025",
+          "סה\"כ כולל מע\"מ": "4,720.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "V",
+          "תזכור פעם אחרונה": "21/10/2025",
+          "הערות": "נשלח מייל",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "יריב והדר פתח תקווה בע\"מ",
+      "name_normalized": "יריב והדר פתח תקווה",
+      "amount": 737.5,
+      "date": "2025-05-05",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": true,
+      "last_reminder": "21/10/2025",
+      "notes": "נשלח מייל",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "יריב והדר פתח תקווה בע\"מ",
+          "תאריך": "5/5/2025",
+          "סה\"כ כולל מע\"מ": "737.5",
+          "האם לשלוח מייל  לתזכורת תשלום": "V",
+          "תזכור פעם אחרונה": "21/10/2025",
+          "הערות": "נשלח מייל",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "כרמל דיירקט",
+      "name_normalized": "כרמל דיירקט",
+      "amount": 4425.0,
+      "date": "2025-08-19",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "לשלוח כמובן",
+      "notes": "",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "כרמל דיירקט",
+          "תאריך": "19/08/2025",
+          "סה\"כ כולל מע\"מ": "4,425.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "לשלוח כמובן ",
+          "תזכור פעם אחרונה": "לשלוח כמובן ",
+          "הערות": "",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "מועצת ארגוני הילדים והנוער",
+      "name_normalized": "מועצת ארגוני הילדים והנוער",
+      "amount": 295.0,
+      "date": "2025-10-18",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "מועצת ארגוני הילדים והנוער",
+          "תאריך": "18/10/2025",
+          "סה\"כ כולל מע\"מ": "295.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "",
+          "תזכור פעם אחרונה": "",
+          "הערות": "",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "מכון הניג בעמ",
+      "name_normalized": "מכון הניג",
+      "amount": 5162.5,
+      "date": "2025-10-19",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "מכון הניג בעמ",
+          "תאריך": "19/10/2025",
+          "סה\"כ כולל מע\"מ": "5,162.5",
+          "האם לשלוח מייל  לתזכורת תשלום": "",
+          "תזכור פעם אחרונה": "",
+          "הערות": "",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "נ.ת.דגי בטשון בע\"מ",
+      "name_normalized": "נ.ת.דגי בטשון",
+      "amount": 3540.0,
+      "date": "2025-09-16",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "אין מה לשלוח כרגע",
+      "notes": "שלחתי לו אתמול תזכור בווטסאפ",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "נ.ת.דגי בטשון בע\"מ",
+          "תאריך": "16/09/2025",
+          "סה\"כ כולל מע\"מ": "3,540.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "",
+          "תזכור פעם אחרונה": "אין מה לשלוח כרגע",
+          "הערות": "שלחתי לו אתמול תזכור בווטסאפ",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "נדיר תעשיות צבע",
+      "name_normalized": "נדיר תעשיות צבע",
+      "amount": 100.3,
+      "date": "2025-08-31",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 70.0,
+      "matches": [],
+      "send_email": true,
+      "last_reminder": "",
+      "notes": "נשלח מייל",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "נדיר תעשיות צבע",
+          "תאריך": "31/08/2025",
+          "סה\"כ כולל מע\"מ": "100.3",
+          "האם לשלוח מייל  לתזכורת תשלום": "V",
+          "תזכור פעם אחרונה": "",
+          "הערות": "נשלח מייל ",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "סים פור פליי בע״מ",
+      "name_normalized": "סים פור פליי",
+      "amount": 8850.0,
+      "date": "2025-07-15",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "עכשיו דיברתי איתו גם הוא אומר מחר מחר מחרמחרמחר",
+      "notes": "אמור לשלם לי היום ולראות מחר את הכסף",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "סים פור פליי בע״מ",
+          "תאריך": "15/07/2025",
+          "סה\"כ כולל מע\"מ": "8,850.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "כרגע לא לשלוח",
+          "תזכור פעם אחרונה": "עכשיו דיברתי איתו גם הוא אומר מחר מחר מחרמחרמחר",
+          "הערות": "אמור לשלם לי היום ולראות מחר את הכסף",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "סים פור פליי בע״מ",
+      "name_normalized": "סים פור פליי",
+      "amount": 14750.0,
+      "date": "2025-06-26",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "אמור לשלם לי היום ולראות מחר את הכסף",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "סים פור פליי בע״מ",
+          "תאריך": "26/06/2025",
+          "סה\"כ כולל מע\"מ": "14,750.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "כרגע לא לשלוח",
+          "תזכור פעם אחרונה": "",
+          "הערות": "אמור לשלם לי היום ולראות מחר את הכסף",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "סימפלי לאב בעמ",
+      "name_normalized": "סימפלי לאב",
+      "amount": 6372.0,
+      "date": "2025-10-16",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "סימפלי לאב בעמ",
+          "תאריך": "16/10/2025",
+          "סה\"כ כולל מע\"מ": "6,372.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "",
+          "תזכור פעם אחרונה": "",
+          "הערות": "",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "סימפלקס פתרונות מיפוי שב בע\"מ",
+      "name_normalized": "סימפלקס פתרונות מיפוי שב",
+      "amount": 14750.0,
+      "date": "2025-09-01",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "כרגע לא לשלוח",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "סימפלקס פתרונות מיפוי שב בע\"מ",
+          "תאריך": "1/9/2025",
+          "סה\"כ כולל מע\"מ": "14,750.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "כרגע לא לשלוח",
+          "תזכור פעם אחרונה": "",
+          "הערות": "כרגע לא לשלוח",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "עמיר דגן",
+      "name_normalized": "עמיר דגן",
+      "amount": 100.3,
+      "date": "2025-10-20",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "עמיר דגן",
+          "תאריך": "20/10/2025",
+          "סה\"כ כולל מע\"מ": "100.3",
+          "האם לשלוח מייל  לתזכורת תשלום": "",
+          "תזכור פעם אחרונה": "",
+          "הערות": "",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "פאזל נתיבי יזמות בע\"מ",
+      "name_normalized": "פאזל נתיבי יזמות",
+      "amount": 531.0,
+      "date": "2025-10-03",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 70.0,
+      "matches": [],
+      "send_email": true,
+      "last_reminder": "",
+      "notes": "נשלח מייל",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "פאזל נתיבי יזמות בע\"מ",
+          "תאריך": "3/10/2025",
+          "סה\"כ כולל מע\"מ": "531.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "V",
+          "תזכור פעם אחרונה": "",
+          "הערות": "נשלח מייל",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "פאזל נתיבי יזמות בע\"מ",
+      "name_normalized": "פאזל נתיבי יזמות",
+      "amount": 1593.0,
+      "date": "2025-08-27",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": true,
+      "last_reminder": "",
+      "notes": "נשלח מייל",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "פאזל נתיבי יזמות בע\"מ",
+          "תאריך": "27/08/2025",
+          "סה\"כ כולל מע\"מ": "1,593.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "V",
+          "תזכור פעם אחרונה": "",
+          "הערות": "נשלח מייל",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "פורס מדיה ישראל בע\"מ",
+      "name_normalized": "פורס מדיה ישראל",
+      "amount": 3941.2,
+      "date": "2025-10-16",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "פורס מדיה ישראל בע\"מ",
+          "תאריך": "16/10/2025",
+          "סה\"כ כולל מע\"מ": "3,941.2",
+          "האם לשלוח מייל  לתזכורת תשלום": "",
+          "תזכור פעם אחרונה": "",
+          "הערות": "",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "פרומיקסט בע\"מ",
+      "name_normalized": "פרומיקסט",
+      "amount": 13510.8,
+      "date": "2025-10-12",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "פרומיקסט בע\"מ",
+          "תאריך": "12/10/2025",
+          "סה\"כ כולל מע\"מ": "13,510.8",
+          "האם לשלוח מייל  לתזכורת תשלום": "",
+          "תזכור פעם אחרונה": "",
+          "הערות": "",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "קורן פתרונות חזותיים בע\"מ",
+      "name_normalized": "קורן פתרונות חזותיים",
+      "amount": 20768.0,
+      "date": "2025-10-12",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 100.0,
+      "matches": [],
+      "send_email": false,
+      "last_reminder": "",
+      "notes": "",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "קורן פתרונות חזותיים בע\"מ",
+          "תאריך": "12/10/2025",
+          "סה\"כ כולל מע\"מ": "20,768.0",
+          "האם לשלוח מייל  לתזכורת תשלום": "",
+          "תזכור פעם אחרונה": "",
+          "הערות": "",
+          "": ""
+        }
+      }
+    },
+    {
+      "name": "תום רוזנווסר",
+      "name_normalized": "תום רוזנווסר",
+      "amount": 76.7,
+      "date": "2025-10-03",
+      "doc_number": "",
+      "sources": [
+        "excel_open_docs"
+      ],
+      "confidence": 70.0,
+      "matches": [],
+      "send_email": true,
+      "last_reminder": "",
+      "notes": "נשלח מייל",
+      "raw_records": {
+        "excel_open_docs": {
+          "לקוח / ספק": "תום רוזנווסר",
+          "תאריך": "3/10/2025",
+          "סה\"כ כולל מע\"מ": "76.7",
+          "האם לשלוח מייל  לתזכורת תשלום": "V",
+          "תזכור פעם אחרונה": "",
+          "הערות": "נשלח מייל",
+          "": ""
+        }
+      }
+    }
+  ],
+  "invoices": [
+    {
+      "client": "אן.טו.אן בע\"מ",
+      "doc_number": "חשק. 4694",
+      "date": "29/10/2025",
+      "amount": 1500.0,
+      "vat": 270.0,
+      "total": 1770.0,
+      "paid": 0.0,
+      "balance": 1770.0,
+      "status": "open"
+    },
+    {
+      "client": "סרוויס כח אדם מלצרים ודיילות בע\"מ",
+      "doc_number": "חשק. 4693",
+      "date": "29/10/2025",
+      "amount": 8000.0,
+      "vat": 1440.0,
+      "total": 9440.0,
+      "paid": 0.0,
+      "balance": 9440.0,
+      "status": "open"
+    },
+    {
+      "client": "דיגיטל וייב שיווק דיגיטלי בעמ",
+      "doc_number": "חשק. 4692",
+      "date": "29/10/2025",
+      "amount": 1250.0,
+      "vat": 225.0,
+      "total": 1475.0,
+      "paid": 0.0,
+      "balance": 1475.0,
+      "status": "open"
+    },
+    {
+      "client": "איסתא ישראל בע\"מ",
+      "doc_number": "חשק. 4691",
+      "date": "29/10/2025",
+      "amount": 200.0,
+      "vat": 36.0,
+      "total": 236.0,
+      "paid": 0.0,
+      "balance": 236.0,
+      "status": "open"
+    },
+    {
+      "client": "איר טי אל וי תיירות ונופש",
+      "doc_number": "קב. 49",
+      "date": "29/10/2025",
+      "amount": 0.0,
+      "vat": 0.0,
+      "total": 10738.0,
+      "paid": 0.0,
+      "balance": 10738.0,
+      "status": "open"
+    },
+    {
+      "client": "פורס מדיה ישראל בע\"מ",
+      "doc_number": "חע. 2153",
+      "date": "29/10/2025",
+      "amount": 3340.0,
+      "vat": 601.2,
+      "total": 3941.2,
+      "paid": 3941.2,
+      "balance": 0.0,
+      "status": "paid"
+    },
+    {
+      "client": "הפודקאסטיה בע\"מ",
+      "doc_number": "חשק. 4690",
+      "date": "29/10/2025",
+      "amount": 450.0,
+      "vat": 81.0,
+      "total": 531.0,
+      "paid": 0.0,
+      "balance": 531.0,
+      "status": "open"
+    },
+    {
+      "client": "ערי ישראל",
+      "doc_number": "חשק. 4689",
+      "date": "29/10/2025",
+      "amount": 85.0,
+      "vat": 15.3,
+      "total": 100.3,
+      "paid": 0.0,
+      "balance": 100.3,
+      "status": "open"
+    },
+    {
+      "client": "פאזל נתיבי יזמות בע\"מ",
+      "doc_number": "חשק. 4688",
+      "date": "28/10/2025",
+      "amount": 1350.0,
+      "vat": 243.0,
+      "total": 1593.0,
+      "paid": 0.0,
+      "balance": 1593.0,
+      "status": "open"
+    },
+    {
+      "client": "חברון זלצמן בע\"מ",
+      "doc_number": "חשק. 4687",
+      "date": "28/10/2025",
+      "amount": 50.0,
+      "vat": 9.0,
+      "total": 59.0,
+      "paid": 0.0,
+      "balance": 59.0,
+      "status": "open"
+    }
+  ],
+  "retainers": [
+    {
+      "client": "איר טי אל וי תיירות ונופש",
+      "doc_number": "ריטיינר 81",
+      "date": "23/10/2025",
+      "amount": 450.0,
+      "vat": 81.0,
+      "total": 531.0,
+      "frequency": "חייב כל חודש",
+      "status": "active"
+    },
+    {
+      "client": "מועצת ארגוני הילדים והנוער",
+      "doc_number": "ריטיינר 80",
+      "date": "18/09/2025",
+      "amount": 250.0,
+      "vat": 45.0,
+      "total": 295.0,
+      "frequency": "חייב כל חודש",
+      "status": "active"
+    },
+    {
+      "client": "Rotem Industries Ltd",
+      "doc_number": "ריטיינר 79",
+      "date": "09/09/2025",
+      "amount": 750.0,
+      "vat": 135.0,
+      "total": 885.0,
+      "frequency": "חייב כל חודש",
+      "status": "active"
+    },
+    {
+      "client": "One1 Global",
+      "doc_number": "ריטיינר 77",
+      "date": "02/09/2025",
+      "amount": 3000.0,
+      "vat": 540.0,
+      "total": 3540.0,
+      "frequency": "חייב כל חודש",
+      "status": "active"
+    },
+    {
+      "client": "גבדור בע\"מ",
+      "doc_number": "ריטיינר 76",
+      "date": "03/06/2025",
+      "amount": 5826.27,
+      "vat": 1048.73,
+      "total": 6875.0,
+      "frequency": "חייב כל חודש",
+      "status": "active"
+    },
+    {
+      "client": "צופים עולמי",
+      "doc_number": "ריטיינר 74",
+      "date": "12/05/2025",
+      "amount": 779.66,
+      "vat": 140.34,
+      "total": 920.0,
+      "frequency": "חייב כל חודש",
+      "status": "active"
+    },
+    {
+      "client": "ghd mosaic design studio",
+      "doc_number": "ריטיינר 75",
+      "date": "12/05/2025",
+      "amount": 1096.0,
+      "vat": 0.0,
+      "total": 1096.0,
+      "frequency": "חייב כל חודש",
+      "status": "active"
+    },
+    {
+      "client": "שמר בטיחות - יועצים בע\"מ",
+      "doc_number": "ריטיינר 73",
+      "date": "01/05/2025",
+      "amount": 170.34,
+      "vat": 30.66,
+      "total": 201.0,
+      "frequency": "חייב כל חודש",
+      "status": "active"
+    },
+    {
+      "client": "גרואו פיימנטס בע\"מ",
+      "doc_number": "ריטיינר 72",
+      "date": "15/04/2025",
+      "amount": 1200.0,
+      "vat": 216.0,
+      "total": 1416.0,
+      "frequency": "חייב כל חודש",
+      "status": "active"
+    },
+    {
+      "client": "תום רוזנווסר",
+      "doc_number": "ריטיינר 71",
+      "date": "03/02/2025",
+      "amount": 65.25,
+      "vat": 11.75,
+      "total": 77.0,
+      "frequency": "חייב כל חודש",
+      "status": "active"
+    }
+  ],
+  "summary": {
+    "total_clients": 94,
+    "total_debt": 268730.93,
+    "total_mrr_planned": 94595.00000000003,
+    "total_mrr_actual": 13587.52,
+    "clients_with_debt": 38,
+    "clients_with_retainer": 10,
+    "algorithm": "Multi-Vector DNA Matching",
+    "confidence_threshold": 70
+  }
+}

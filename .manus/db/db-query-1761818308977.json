@@ -1,0 +1,274 @@
+{
+  "query": "SHOW COLUMNS FROM crm_clients;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4JAWgR17KhGySt9.bfadd583f5f6 --database mUd6aSPsVxqf9mVgrBQgdw --execute SHOW COLUMNS FROM crm_clients;",
+  "rows": [
+    {
+      "Field": "id",
+      "Type": "int(11)",
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": "NULL",
+      "Extra": "auto_increment"
+    },
+    {
+      "Field": "client_name",
+      "Type": "varchar(255)",
+      "Null": "NO",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "contact_person",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "email",
+      "Type": "varchar(320)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "phone",
+      "Type": "varchar(50)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "business_type",
+      "Type": "enum('retainer','hourly','bank','project','one_time')",
+      "Null": "NO",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "status",
+      "Type": "enum('active','inactive','potential')",
+      "Null": "NO",
+      "Key": "",
+      "Default": "active",
+      "Extra": ""
+    },
+    {
+      "Field": "monthly_retainer",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "hourly_rate",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "bank_hours",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "used_hours",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "0",
+      "Extra": ""
+    },
+    {
+      "Field": "notes",
+      "Type": "text",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "created_at",
+      "Type": "timestamp",
+      "Null": "NO",
+      "Key": "",
+      "Default": "CURRENT_TIMESTAMP",
+      "Extra": ""
+    },
+    {
+      "Field": "updated_at",
+      "Type": "timestamp",
+      "Null": "NO",
+      "Key": "",
+      "Default": "CURRENT_TIMESTAMP",
+      "Extra": "DEFAULT_GENERATED on update CURRENT_TIMESTAMP"
+    },
+    {
+      "Field": "id_notes",
+      "Type": "text",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "hourly_rate_separate",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "currency",
+      "Type": "varchar(10)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "ILS",
+      "Extra": ""
+    },
+    {
+      "Field": "start_date",
+      "Type": "timestamp",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "chat_link",
+      "Type": "varchar(500)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "flag",
+      "Type": "varchar(50)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "projects_link",
+      "Type": "text",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "contract_months",
+      "Type": "int(11)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "billing_link",
+      "Type": "text",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "automate",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "files",
+      "Type": "text",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "last_update_date",
+      "Type": "timestamp",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "last_update_by",
+      "Type": "varchar(255)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "change_log",
+      "Type": "text",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "previous_status",
+      "Type": "varchar(100)",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "previous_status_date",
+      "Type": "timestamp",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "billing_notes",
+      "Type": "text",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "tasks_link",
+      "Type": "text",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    },
+    {
+      "Field": "projects_link2",
+      "Type": "text",
+      "Null": "YES",
+      "Key": "",
+      "Default": "NULL",
+      "Extra": ""
+    }
+  ],
+  "messages": [],
+  "stdout": "Field\tType\tNull\tKey\tDefault\tExtra\nid\tint(11)\tNO\tPRI\tNULL\tauto_increment\nclient_name\tvarchar(255)\tNO\t\tNULL\t\ncontact_person\tvarchar(255)\tYES\t\tNULL\t\nemail\tvarchar(320)\tYES\t\tNULL\t\nphone\tvarchar(50)\tYES\t\tNULL\t\nbusiness_type\tenum('retainer','hourly','bank','project','one_time')\tNO\t\tNULL\t\nstatus\tenum('active','inactive','potential')\tNO\t\tactive\t\nmonthly_retainer\tint(11)\tYES\t\tNULL\t\nhourly_rate\tint(11)\tYES\t\tNULL\t\nbank_hours\tint(11)\tYES\t\tNULL\t\nused_hours\tint(11)\tYES\t\t0\t\nnotes\ttext\tYES\t\tNULL\t\ncreated_at\ttimestamp\tNO\t\tCURRENT_TIMESTAMP\t\nupdated_at\ttimestamp\tNO\t\tCURRENT_TIMESTAMP\tDEFAULT_GENERATED on update CURRENT_TIMESTAMP\nid_notes\ttext\tYES\t\tNULL\t\nhourly_rate_separate\tint(11)\tYES\t\tNULL\t\ncurrency\tvarchar(10)\tYES\t\tILS\t\nstart_date\ttimestamp\tYES\t\tNULL\t\nchat_link\tvarchar(500)\tYES\t\tNULL\t\nflag\tvarchar(50)\tYES\t\tNULL\t\nprojects_link\ttext\tYES\t\tNULL\t\ncontract_months\tint(11)\tYES\t\tNULL\t\nbilling_link\ttext\tYES\t\tNULL\t\nautomate\tvarchar(100)\tYES\t\tNULL\t\nfiles\ttext\tYES\t\tNULL\t\nlast_update_date\ttimestamp\tYES\t\tNULL\t\nlast_update_by\tvarchar(255)\tYES\t\tNULL\t\nchange_log\ttext\tYES\t\tNULL\t\nprevious_status\tvarchar(100)\tYES\t\tNULL\t\nprevious_status_date\ttimestamp\tYES\t\tNULL\t\nbilling_notes\ttext\tYES\t\tNULL\t\ntasks_link\ttext\tYES\t\tNULL\t\nprojects_link2\ttext\tYES\t\tNULL\t\n",
+  "stderr": "",
+  "execution_time_ms": 49
+}

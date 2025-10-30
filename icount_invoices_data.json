@@ -1,0 +1,123 @@
+{
+  "invoices": [
+    {
+      "client": "אן.טו.אן בע\"מ",
+      "doc_number": "חשק. 4694",
+      "date": "29/10/2025",
+      "amount": 1500.00,
+      "vat": 270.00,
+      "total": 1770.00,
+      "paid": 0.00,
+      "balance": 1770.00,
+      "status": "open"
+    },
+    {
+      "client": "סרוויס כח אדם מלצרים ודיילות בע\"מ",
+      "doc_number": "חשק. 4693",
+      "date": "29/10/2025",
+      "amount": 8000.00,
+      "vat": 1440.00,
+      "total": 9440.00,
+      "paid": 0.00,
+      "balance": 9440.00,
+      "status": "open"
+    },
+    {
+      "client": "דיגיטל וייב שיווק דיגיטלי בעמ",
+      "doc_number": "חשק. 4692",
+      "date": "29/10/2025",
+      "amount": 1250.00,
+      "vat": 225.00,
+      "total": 1475.00,
+      "paid": 0.00,
+      "balance": 1475.00,
+      "status": "open"
+    },
+    {
+      "client": "איסתא ישראל בע\"מ",
+      "doc_number": "חשק. 4691",
+      "date": "29/10/2025",
+      "amount": 200.00,
+      "vat": 36.00,
+      "total": 236.00,
+      "paid": 0.00,
+      "balance": 236.00,
+      "status": "open"
+    },
+    {
+      "client": "איר טי אל וי תיירות ונופש",
+      "doc_number": "קב. 49",
+      "date": "29/10/2025",
+      "amount": 0.00,
+      "vat": 0.00,
+      "total": 10738.00,
+      "paid": 0.00,
+      "balance": 10738.00,
+      "status": "open"
+    },
+    {
+      "client": "פורס מדיה ישראל בע\"מ",
+      "doc_number": "חע. 2153",
+      "date": "29/10/2025",
+      "amount": 3340.00,
+      "vat": 601.20,
+      "total": 3941.20,
+      "paid": 3941.20,
+      "balance": 0.00,
+      "status": "paid"
+    },
+    {
+      "client": "הפודקאסטיה בע\"מ",
+      "doc_number": "חשק. 4690",
+      "date": "29/10/2025",
+      "amount": 450.00,
+      "vat": 81.00,
+      "total": 531.00,
+      "paid": 0.00,
+      "balance": 531.00,
+      "status": "open"
+    },
+    {
+      "client": "ערי ישראל",
+      "doc_number": "חשק. 4689",
+      "date": "29/10/2025",
+      "amount": 85.00,
+      "vat": 15.30,
+      "total": 100.30,
+      "paid": 0.00,
+      "balance": 100.30,
+      "status": "open"
+    },
+    {
+      "client": "פאזל נתיבי יזמות בע\"מ",
+      "doc_number": "חשק. 4688",
+      "date": "28/10/2025",
+      "amount": 1350.00,
+      "vat": 243.00,
+      "total": 1593.00,
+      "paid": 0.00,
+      "balance": 1593.00,
+      "status": "open"
+    },
+    {
+      "client": "חברון זלצמן בע\"מ",
+      "doc_number": "חשק. 4687",
+      "date": "28/10/2025",
+      "amount": 50.00,
+      "vat": 9.00,
+      "total": 59.00,
+      "paid": 0.00,
+      "balance": 59.00,
+      "status": "open"
+    }
+  ],
+  "summary": {
+    "total_invoices": 10,
+    "total_amount": 16225.00,
+    "total_paid": 3941.20,
+    "total_balance": 29883.50,
+    "open_invoices": 9,
+    "paid_invoices": 1
+  }
+}
+

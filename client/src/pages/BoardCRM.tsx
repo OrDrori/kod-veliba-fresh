@@ -36,6 +36,10 @@ import {
 import { toast } from "sonner";
 import { BoardInfoBubbleNew } from "@/components/BoardInfoBubbleNew";
 import SortFilterDialog from "@/components/SortFilterDialog";
+import { QuickEdit } from "@/components/QuickEdit";
+import { QuickActionsMenu, commonActions } from "@/components/QuickActionsMenu";
+import { BoardStats } from "@/components/BoardStats";
+import { Users, TrendingUp, DollarSign, Clock } from "lucide-react";
 import { useSortFilter } from "@/hooks/useSortFilter";
 
 const rowColors = [
@@ -223,8 +227,42 @@ export default function BoardCRM() {
     );
   }
 
+  // Calculate stats
+  const totalClients = sortedData?.length || 0;
+  const activeClients = sortedData?.filter((c: any) => c.status === "active").length || 0;
+  const totalRevenue = sortedData?.reduce((sum: number, c: any) => sum + (c.monthlyRetainer || 0), 0) || 0;
+  const totalHours = sortedData?.reduce((sum: number, c: any) => sum + (c.bankHours || 0), 0) || 0;
+
   return (
     <>
+      <BoardStats
+        stats={[
+          {
+            label: "סה\"כ לקוחות",
+            value: totalClients,
+            icon: Users,
+            color: "bg-gradient-to-br from-blue-500 to-blue-600",
+          },
+          {
+            label: "לקוחות פעילים",
+            value: activeClients,
+            icon: TrendingUp,
+            color: "bg-gradient-to-br from-green-500 to-green-600",
+          },
+          {
+            label: "הכנסות חודשיות",
+            value: `₪${totalRevenue.toLocaleString()}`,
+            icon: DollarSign,
+            color: "bg-gradient-to-br from-indigo-500 to-indigo-600",
+          },
+          {
+            label: "סה\"כ בנק שעות",
+            value: `${totalHours} שעות`,
+            icon: Clock,
+            color: "bg-gradient-to-br from-purple-500 to-purple-600",
+          },
+        ]}
+      />
       <MondayTable
         title="CRM - ניהול לקוחות"
         description="ניהול לקוחות ועסקאות"
@@ -361,27 +399,18 @@ export default function BoardCRM() {
                 </div>
               </MondayTableCell>
               <MondayTableCell>
-                <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    className="h-8 w-8 p-0 hover:bg-blue-100"
-                    onClick={() => openEditDialog(client)}
-                  >
-                    <Pencil className="w-4 h-4" />
-                  </Button>
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    className="h-8 w-8 p-0 hover:bg-red-100"
-                    onClick={() => openDeleteDialog(client)}
-                  >
-                    <Trash2 className="w-4 h-4 text-red-600" />
-                  </Button>
-                  <Button variant="ghost" size="sm" className="h-8 w-8 p-0">
-                    <MoreHorizontal className="w-4 h-4" />
-                  </Button>
-                </div>
+                <QuickActionsMenu
+                  actions={[
+                    commonActions.email(client.email || ""),
+                    commonActions.call(client.phone || ""),
+                    commonActions.whatsapp(client.phone || ""),
+                    commonActions.createTask(() => toast.info("יצירת משימה ללקוח...")),
+                    commonActions.createInvoice(() => toast.info("יצירת חשבונית...")),
+                    commonActions.viewDetails(() => openEditDialog(client)),
+                  ]}
+                  onEdit={() => openEditDialog(client)}
+                  onDelete={() => openDeleteDialog(client)}
+                />
               </MondayTableCell>
             </MondayTableRow>
           ))

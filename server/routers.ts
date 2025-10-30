@@ -319,6 +319,21 @@ export const appRouter = router({
     }),
   }),
 
+  ai: router({
+    chat: publicProcedure.input((val: any) => val).mutation(async ({ input }) => {
+      const { chatWithAI } = await import("./ai");
+      return await chatWithAI(input);
+    }),
+    history: publicProcedure.input((val: any) => val).query(async ({ input }) => {
+      const { getConversationHistory } = await import("./ai");
+      return await getConversationHistory(input.conversationId);
+    }),
+    conversations: publicProcedure.input((val: any) => val).query(async ({ input }) => {
+      const { getEmployeeConversations } = await import("./ai");
+      return await getEmployeeConversations(input.employeeId);
+    }),
+  }),
+
   notifications: router({
     list: publicProcedure.query(async () => {
       const { getAllNotifications } = await import("./db");

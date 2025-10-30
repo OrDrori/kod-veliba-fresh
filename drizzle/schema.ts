@@ -432,3 +432,44 @@ export const notifications = mysqlTable("notifications", {
 
 export type Notification = typeof notifications.$inferSelect;
 export type InsertNotification = typeof notifications.$inferInsert;
+
+// ============================================
+// AI PERSONAL ASSISTANT TABLES
+// ============================================
+
+// AI Conversations - שיחות עם AI
+export const aiConversations = mysqlTable("ai_conversations", {
+  id: int("id").autoincrement().primaryKey(),
+  employeeId: int("employee_id"), // קישור לעובד
+  title: varchar("title", { length: 255 }), // כותרת השיחה
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+  updatedAt: timestamp("updated_at").defaultNow().onUpdateNow().notNull(),
+});
+
+// AI Messages - הודעות בשיחה
+export const aiMessages = mysqlTable("ai_messages", {
+  id: int("id").autoincrement().primaryKey(),
+  conversationId: int("conversation_id"), // קישור לשיחה
+  role: mysqlEnum("role", ["user", "assistant", "system"]).notNull(), // תפקיד
+  content: text("content").notNull(), // תוכן ההודעה
+  metadata: text("metadata"), // מטא-דאטה (JSON: context, sources, actions)
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
+
+// AI Actions - פעולות מוצעות/מבוצעות
+export const aiActions = mysqlTable("ai_actions", {
+  id: int("id").autoincrement().primaryKey(),
+  messageId: int("message_id"), // קישור להודעה
+  actionType: varchar("action_type", { length: 50 }).notNull(), // סוג הפעולה
+  actionData: text("action_data"), // נתוני הפעולה (JSON)
+  status: mysqlEnum("status", ["pending", "approved", "executed", "rejected"]).default("pending").notNull(),
+  executedAt: timestamp("executed_at"),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
+
+export type AIConversation = typeof aiConversations.$inferSelect;
+export type InsertAIConversation = typeof aiConversations.$inferInsert;
+export type AIMessage = typeof aiMessages.$inferSelect;
+export type InsertAIMessage = typeof aiMessages.$inferInsert;
+export type AIAction = typeof aiActions.$inferSelect;
+export type InsertAIAction = typeof aiActions.$inferInsert;

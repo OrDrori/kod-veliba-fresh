@@ -2,6 +2,7 @@ import { ReactNode } from "react";
 import MondaySidebar from "./MondaySidebar";
 import MobileSidebar from "./MobileSidebar";
 import { NotificationCenter } from "./NotificationCenter";
+import FloatingChatButton from "./FloatingChatButton";
 
 interface MondayLayoutProps {
   children: ReactNode;
@@ -25,6 +26,8 @@ export default function MondayLayout({ children }: MondayLayoutProps) {
           </div>
         </div>
       </div>
+      {/* AI Assistant */}
+      <FloatingChatButton employeeId={1} />
     </>
   );
 }

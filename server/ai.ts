@@ -1,6 +1,11 @@
 import { getDb } from "./db";
 import { aiConversations, aiMessages, aiActions, clientTasks, crmClients, employees } from "../drizzle/schema";
 import { eq, desc } from "drizzle-orm";
+import { GoogleGenerativeAI } from "@google/generative-ai";
+
+// Initialize Gemini AI
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "");
+const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash-exp" });
 
 // ============================================
 // AI PERSONAL ASSISTANT
@@ -198,9 +203,95 @@ function detectIntent(query: string): string[] {
  * @returns AI response
  */
 async function generateAIResponse(query: string, context: any) {
-  // For MVP, we'll use simple rule-based responses
-  // In production, integrate with Gemini API
+  try {
+    // Build context string for Gemini
+    let contextStr = "";
+    
+    if (context.tasks && context.tasks.length > 0) {
+      contextStr += "\n\n📋 משימות:\n";
+      context.tasks.slice(0, 10).forEach((task: any, index: number) => {
+        contextStr += `${index + 1}. ${task.taskName}\n`;
+        contextStr += `   - סטטוס: ${getStatusLabel(task.status)}\n`;
+        contextStr += `   - עדיפות: ${task.priority || "רגילה"}\n`;
+        if (task.dueDate) {
+          contextStr += `   - תאריך יעד: ${new Date(task.dueDate).toLocaleDateString("he-IL")}\n`;
+        }
+      });
+    }
+    
+    if (context.clients && context.clients.length > 0) {
+      contextStr += "\n\n👥 לקוחות:\n";
+      context.clients.slice(0, 10).forEach((client: any, index: number) => {
+        contextStr += `${index + 1}. ${client.clientName}\n`;
+        contextStr += `   - סטטוס: ${getStatusLabel(client.status)}\n`;
+        contextStr += `   - סוג עסקי: ${getBusinessTypeLabel(client.businessType)}\n`;
+      });
+    }
+    
+    if (context.summary) {
+      const { totalTasks, completedTasks, pendingTasks } = context.summary;
+      contextStr += "\n\n📊 סיכום:\n";
+      contextStr += `- סה"כ משימות: ${totalTasks}\n`;
+      contextStr += `- הושלמו: ${completedTasks} (${Math.round((completedTasks / totalTasks) * 100)}%)\n`;
+      contextStr += `- ממתינות: ${pendingTasks}\n`;
+    }
 
+    // Build prompt for Gemini
+    const prompt = `אתה עוזר אישי חכם למערכת ניהול עסקית (CRM).
+התפקיד שלך הוא לעזור לעובדים לנהל את העבודה שלהם בצורה יעילה.
+
+הקשר (נתונים מהמערכת):${contextStr}
+
+שאלת המשתמש: ${query}
+
+הנחיות:
+1. תן תשובה מועילה, ממוקדת וקצרה בעברית
+2. השתמש באימוג'ים רלוונטיים (📋, 💡, ✅, ⏰, 🎯)
+3. אם יש משימות דחופות - הדגש אותן
+4. תן המלצות פרקטיות לפעולה
+5. היה ידידותי ומקצועי
+6. אם אין נתונים רלוונטיים - הסבר מה אתה יכול לעזור בו
+
+תשובה:`;
+
+    // Call Gemini API
+    const result = await model.generateContent(prompt);
+    const response = await result.response;
+    const text = response.text();
+
+    // Extract actions from response (if any urgent tasks)
+    const actions: any[] = [];
+    if (context.tasks) {
+      const urgentTasks = context.tasks.filter((t: any) => 
+        t.priority === "urgent" || t.priority === "high"
+      );
+      if (urgentTasks.length > 0) {
+        actions.push({
+          type: "view_task",
+          data: { taskId: urgentTasks[0].id },
+          label: `צפה במשימה: ${urgentTasks[0].taskName}`,
+        });
+      }
+    }
+
+    return {
+      message: text,
+      sources: Object.keys(context),
+      actions: actions,
+    };
+
+  } catch (error) {
+    console.error("Gemini API Error:", error);
+    
+    // Fallback to rule-based response if Gemini fails
+    return generateFallbackResponse(query, context);
+  }
+}
+
+/**
+ * Fallback response if Gemini API fails
+ */
+function generateFallbackResponse(query: string, context: any) {
   const response: any = {
     message: "",
     sources: [],
@@ -211,7 +302,6 @@ async function generateAIResponse(query: string, context: any) {
   if (context.tasks && context.tasks.length > 0) {
     const tasks = context.tasks;
     
-    // Build response
     response.message = `יש לך ${tasks.length} משימות:\n\n`;
     
     tasks.slice(0, 5).forEach((task: any, index: number) => {
@@ -224,12 +314,9 @@ async function generateAIResponse(query: string, context: any) {
       response.message += `\n`;
     });
 
-    // Add suggestions
     const urgentTasks = tasks.filter((t: any) => t.priority === "urgent" || t.priority === "high");
     if (urgentTasks.length > 0) {
       response.message += `\n💡 המלצה: יש ${urgentTasks.length} משימות דחופות שדורשות טיפול מיידי!`;
-      
-      // Suggest action
       response.actions = [{
         type: "view_task",
         data: { taskId: urgentTasks[0].id },
@@ -239,8 +326,6 @@ async function generateAIResponse(query: string, context: any) {
 
     response.sources = ["client_tasks"];
   }
-  
-  // Check if we have clients in context
   else if (context.clients && context.clients.length > 0) {
     const clients = context.clients;
     
@@ -255,8 +340,6 @@ async function generateAIResponse(query: string, context: any) {
 
     response.sources = ["crm_clients"];
   }
-  
-  // Check if we have summary in context
   else if (context.summary) {
     const { totalTasks, completedTasks, pendingTasks } = context.summary;
     
@@ -272,8 +355,6 @@ async function generateAIResponse(query: string, context: any) {
 
     response.sources = ["client_tasks"];
   }
-  
-  // Default response
   else {
     response.message = `שלום! אני העוזר האישי שלך. 👋\n\n`;
     response.message += `אני יכול לעזור לך עם:\n`;

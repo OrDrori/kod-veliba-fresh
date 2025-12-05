@@ -39,7 +39,7 @@ import SortFilterDialog from "@/components/SortFilterDialog";
 import { QuickEdit } from "@/components/QuickEdit";
 import { QuickActionsMenu, commonActions } from "@/components/QuickActionsMenu";
 import { BoardStats } from "@/components/BoardStats";
-import { Users, TrendingUp, DollarSign, Clock } from "lucide-react";
+import { Users, TrendingUp } from "lucide-react";
 import { useSortFilter } from "@/hooks/useSortFilter";
 
 const rowColors = [
